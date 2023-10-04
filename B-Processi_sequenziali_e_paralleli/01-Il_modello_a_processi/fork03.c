@@ -12,6 +12,7 @@
 int main() {
   
   printf("Codice eseguito padre! (pid: %d)\n", getpid());
+  for(;;) {;}
   
   
   int pid = fork(); // viene creato il processo figlio
@@ -28,5 +29,7 @@ int main() {
   //dobbiamo sfruttare questo blocco if e la variabile pid
   
   printf("Codice comune a padre e figlio! (pid: %d)\n", getpid());
+
+  for(;;) {;}
 }
 
