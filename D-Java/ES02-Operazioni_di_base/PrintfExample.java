@@ -18,6 +18,5 @@ public class PrintfExample {
 
         // Utilizzo di argomenti posizionali
         System.out.printf("%2$d, %1$d\n", 10, 20);
-        
     }
 }
