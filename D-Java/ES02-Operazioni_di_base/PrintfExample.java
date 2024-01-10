@@ -18,5 +18,7 @@ public class PrintfExample {
         System.out.printf("Il numero %s è convertito in maiuscolo: %S\n", "hello", "hello");
         // Utilizzo di argomenti posizionali
         System.out.printf("%2$d, %1$d\n", 10, 20);
+
+        System.out.println("\nCiao Mondo!\n\n");
     }
 }
