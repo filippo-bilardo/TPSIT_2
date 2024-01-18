@@ -21,8 +21,7 @@ public class MiaClasseTest {
         // Creazione di un'istanza della classe
         MiaClasseBase oggetto1 = new MiaClasseBase("Mario");
         // Chiamata al metodo toString() e Stampa
-        System.out.println(oggetto1.toString());
-        
+        System.out.println(oggetto1.toString());      
     }
 }
 
