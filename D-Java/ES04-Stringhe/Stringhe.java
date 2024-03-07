@@ -1,5 +1,26 @@
 
-
+/**
+ * ES02 - Stringhe
+ * 
+ * Creare un progetto Java denominato Stringhe.
+ * nel main verranno eseguite le seguenti operazioni:
+ * 
+ * 1. Creare due oggetti String, uno utilizzando il costruttore e l'altro utilizzando la notazione letterale.
+ * 2. Creare un'altra variabile di riferimento che punta allo stesso oggetto.
+ * 3. Concatenare una stringa con un dato di tipo primitivo.
+ * 4. Stampare il contenuto di entrambe le variabili.
+ * 5. Utilizzare i metodi della classe String per:
+ *     - Calcolare la lunghezza della stringa.
+ *    - Confrontare due stringhe.
+ *   - Convertire la stringa in maiuscolo.
+ * - Estrarre un carattere in posizione i.
+ * - Ricerca di una sottostringa.
+ * - Verifica dell'inizio o della fine di una stringa.
+ * - Estrazione di una sottostringa.
+ * 
+ * @author Filippo Bilardo
+ * @date 07/03/2024
+ */
 public class Stringhe {
     public static void main(String[] args) {
         // Creazione di un oggetto String
@@ -39,9 +60,7 @@ public class Stringhe {
         System.out.println("primaStringa.endsWith(\"!\"): " + primaStringa.endsWith("!"));
 
         // Estrazione di una sottostringa
-        System.out.println("primaStringa.substring(5): " + primaStringa.substring(5));
-
-        
+        System.out.println("primaStringa.substring(5): " + primaStringa.substring(5));        
     }
 
 }

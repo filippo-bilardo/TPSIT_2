@@ -28,7 +28,7 @@ public class Stinghe1 {
         System.out.print("Inserisci il primo numero intero non negativo (a): ");
         int a = scanner.nextInt();
 
-        System.out.print("Inserisci il secondo numero intero non negativo (b): ");
+        System.out.print("Inserisci il secondo numero intero non negativo (b>a): ");
         int b = scanner.nextInt();
 
         // Visualizza la sottostringa di s compresa tra il carattere di posizione
