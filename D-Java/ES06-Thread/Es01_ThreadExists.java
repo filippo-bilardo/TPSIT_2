@@ -13,7 +13,7 @@ public class Es01_ThreadExists {
         try { // le informazioni
             for (int n = 5; n > 0; n--) {
                 System.out.println("" + n);
-                t.sleep(1000); // ne fermo l’esecuzione 5 volte per un test
+                Thread.sleep(1000); // ne fermo l’esecuzione 5 volte per un test
             }
         } catch (InterruptedException e) {
             System.out.println("Thread interrotto");
