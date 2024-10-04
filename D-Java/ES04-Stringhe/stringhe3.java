@@ -1,15 +1,3 @@
-//importo la classe Scanner
-import java.util.Scanner;
-//importp la classe String
-import java.lang.String;
-//importo la classe StringBuilder
-import java.lang.StringBuilder;
-//importo la classe StringBuffer
-import java.lang.StringBuffer;
-//importo la classe CharSequence
-import java.lang.CharSequence;
-
-
 // Confronto prestazioni con calcolo dei tempi
 public class stringhe3 {
 
