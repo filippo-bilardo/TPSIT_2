@@ -3,7 +3,7 @@ class MiaClasseBase {
     public MiaClasseBase(String name) {this.name = name;}
 }
 
-class MiaClasse {
+private class MiaClasse {
     private String name;
     public MiaClasse(String name) {this.name = name;}
     @Override public String toString() {
