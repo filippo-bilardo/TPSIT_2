@@ -27,7 +27,6 @@ public class Stringhe {
         String primaStringa = new String("Ciao, Mondo!");
         String secondaStringa = "Hello, World!";
 
-
         // Creazione di un'altra variabile di riferimento che punta allo stesso oggetto
         String terzaStringa = primaStringa;
 
@@ -50,7 +49,7 @@ public class Stringhe {
         System.out.println("primaStringa in maiuscolo: " + primaStringa.toUpperCase());
 
         // Il metodo charAt() restituisce il carattere in posizione i
-        System.out.println("primaStringa.charAt(5): " + primaStringa.charAt(5));
+        System.out.println("primaStringa.charAt(5): " + primaStringa.charAt(primaStringa.length()));
 
         // Ricerca di una sottostringa
         System.out.println("primaStringa.indexOf(\"Mondo\"): " + primaStringa.indexOf("Mondo"));
