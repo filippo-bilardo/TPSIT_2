@@ -102,6 +102,80 @@ public class IncrementaArray {
 2 3 4 5 6
 ```
 
+### Esempio con Collezione (ArrayList):
+
+```java
+import java.util.ArrayList;
+
+public class EsempioForPotenziatoCollezione {
+    public static void main(String[] args) {
+        ArrayList<String> nomi = new ArrayList<>();
+        nomi.add("Mario");
+        nomi.add("Luigi");
+        nomi.add("Anna");
+
+        // Uso del for potenziato per scorrere l'ArrayList
+        for (String nome : nomi) {
+            System.out.println(nome);  // Stampa ogni elemento della collezione
+        }
+    }
+}
+```
+
+**Output:**
+```
+Mario
+Luigi
+Anna
+```
+
+### Esempio: Uso con Tipi Complessi (Oggetti):
+
+Il for potenziato può essere usato anche per iterare su collezioni o array di oggetti complessi.
+
+```java
+public class Persona {
+    private String nome;
+    private int eta;
+
+    public Persona(String nome, int eta) {
+        this.nome = nome;
+        this.eta = eta;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getEta() {
+        return eta;
+    }
+}
+
+import java.util.ArrayList;
+
+public class EsempioForPotenziatoOggetti {
+    public static void main(String[] args) {
+        ArrayList<Persona> persone = new ArrayList<>();
+        persone.add(new Persona("Mario", 30));
+        persone.add(new Persona("Luigi", 25));
+        persone.add(new Persona("Anna", 28));
+
+        // Uso del for potenziato per iterare su una collezione di oggetti
+        for (Persona persona : persone) {
+            System.out.println(persona.getNome() + " ha " + persona.getEta() + " anni");
+        }
+    }
+}
+```
+
+**Output:**
+```
+Mario ha 30 anni
+Luigi ha 25 anni
+Anna ha 28 anni
+```
+
 ### Conclusione
 Il for potenziato è un costrutto utile per iterare in modo semplice e sicuro su array e collezioni, particolarmente indicato quando è necessario soltanto leggere i dati o eseguire operazioni di elaborazione senza modificare gli elementi. Tuttavia, quando è necessario accedere agli indici o aggiornare i valori all’interno dell’array, il ciclo `for` tradizionale rimane una scelta più adatta.
 
