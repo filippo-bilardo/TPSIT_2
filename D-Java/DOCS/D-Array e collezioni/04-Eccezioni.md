@@ -93,3 +93,5 @@ In questo esempio, se l’array `numeri` è nullo, verrà catturata una `NullPoi
 ### Conclusione
 
 La gestione delle eccezioni negli array è essenziale per creare applicazioni robuste e affidabili in Java. Capire come e quando gestire le eccezioni può migliorare la stabilità del codice e prevenire arresti anomali dovuti a errori di accesso agli elementi dell'array. Utilizzando i blocchi `try-catch` e applicando controlli preventivi, è possibile scrivere programmi più sicuri e resistenti agli errori.
+
+[03-Esempi](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/03-Esempi.md) - [05-Esempio mazzo di carte.md](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/05-Esempio%20mazzo%20di%20carte.md)

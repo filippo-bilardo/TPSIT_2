@@ -112,3 +112,5 @@ Età media: 27.666666666666668
 ### Conclusione
 
 Gli array di oggetti sono strumenti potenti per organizzare dati complessi. Consentono di trattare gruppi di oggetti con una struttura ordinata e iterabile, facilitando l'elaborazione collettiva di informazioni. Utilizzando array di oggetti, è possibile gestire insiemi omogenei di dati complessi, come insiemi di utenti, prodotti o entità di qualsiasi tipo in applicazioni Java.
+
+[06-for potenziato](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/06-for%20potenziato.md) - [08-Array multidimensionali](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/08-Array%20multidimensionali.md)
