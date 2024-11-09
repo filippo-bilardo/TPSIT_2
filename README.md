@@ -1,2 +1,2 @@
 # TPSIT_2
-Lavori del corso TPSIT2
+Appunti ed esempi per corso TPSIT2 (classi quarte)
