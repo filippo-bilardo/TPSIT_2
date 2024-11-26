@@ -1,1 +1,0 @@
-# A - Ambiente di sviluppo

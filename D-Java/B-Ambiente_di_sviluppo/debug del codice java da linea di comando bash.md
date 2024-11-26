@@ -1,0 +1,83 @@
+Per fare il **debug del codice Java** da linea di comando Bash, segui questi passaggi:
+
+1. **Compila il codice con l'opzione `-g`** per includere informazioni di debug:
+   ```bash
+   javac -g NomeProgramma.java
+   ```
+
+2. **Avvia il debugger `jdb`** passando il nome della classe compilata:
+   ```bash
+   jdb NomeProgramma
+   ```
+
+3. **Usa i comandi del debugger `jdb`** per controllare l'esecuzione:
+   - `stop at NomeProgramma:numeroLinea`: imposta un breakpoint.
+   - `run`: esegue il programma.
+   - `step`: esegue il passo successivo.
+   - `print variabile`: stampa il valore di una variabile.
+   - `cont`: continua fino al prossimo breakpoint.
+
+Questo ti permette di eseguire il debug passo passo direttamente dalla riga di comando.
+
+# esempio completo
+
+Ecco un esempio completo di debug Java dalla riga di comando usando **Bash** e **jdb**.
+
+### Passaggi:
+
+1. Scrivi un semplice programma Java. Ecco un esempio:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int somma = somma(a, b);
+        System.out.println("La somma è: " + somma);
+    }
+
+    public static int somma(int x, int y) {
+        return x + y;
+    }
+}
+```
+
+2. **Compila il programma** con il flag di debug:
+   ```bash
+   javac -g HelloWorld.java
+   ```
+
+3. **Avvia `jdb`** e carica la classe:
+   ```bash
+   jdb HelloWorld
+   ```
+
+4. Imposta un **breakpoint** alla linea 4 (dove si chiama il metodo `somma`):
+   ```bash
+   stop at HelloWorld:4
+   ```
+
+5. **Esegui il programma**:
+   ```bash
+   run
+   ```
+
+6. Quando il programma si ferma al breakpoint, puoi:
+   - Usare `step` per avanzare passo passo.
+   - Usare `print` per vedere il valore delle variabili:
+     ```bash
+     print a
+     print b
+     ```
+
+7. Continua fino alla fine con:
+   ```bash
+   cont
+   ```
+
+8. Il debugger mostrerà l'output, come ad esempio:
+   ```bash
+   La somma è: 15
+   ```
+
+Con questi comandi, puoi fare debug del codice Java dalla linea di comando, esaminando valori e flussi di esecuzione.

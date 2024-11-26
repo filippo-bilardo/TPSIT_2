@@ -1,0 +1,1 @@
+## A - Processi sequenziali e paralleli

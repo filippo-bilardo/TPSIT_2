@@ -1,0 +1,1 @@
+## B - Comunicazione e sincronizzazione
