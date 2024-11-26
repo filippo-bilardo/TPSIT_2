@@ -2,7 +2,6 @@
 
 ### Esercitazioni
 - [ES05 - Array](https://docs.google.com/presentation/d/1rooTMNHs3iRwuCrYiVeyDeGMQ9Vhiml6aPJrZCsIktE/edit?usp=sharing)
-
 - [ES06 - Array e Collezioni](https://docs.google.com/presentation/d/1fItaVWeMDw0tpwTN4YxHgDMHgFaWTbhxkEjtUZX2vDw/edit?usp=sharing)
 
 ### Teoria
