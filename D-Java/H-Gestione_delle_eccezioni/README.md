@@ -11,3 +11,6 @@ Appunti ed esempi per corso TPSIT2 (classi quarte)
 2. Creazione e gestione di eccezioni personalizzate<br>
    2.1. Creazione di classi di eccezioni personalizzate<br>
    2.2. Lancio e gestione delle eccezioni personalizzate<br>
+
+--- 
+[INDICE](../README.md) 
