@@ -66,4 +66,4 @@ numeri[2] = 10; // Cambia il terzo elemento a 10
 - **Dimensione fissa**: Una volta creato, l'array non può essere ridimensionato, il che può portare a sprechi di memoria o alla necessità di copiare i dati in un nuovo array più grande.
 - **Gestione complessa**: Operazioni come l'inserimento o la rimozione di elementi sono meno flessibili e richiedono la manipolazione diretta degli indici.
 
-[01-Introduzione](01-Introduzione.md) - [03-Esempi](03-Esempi.md)
+[01-Introduzione](01-Introduzione.md) - [INDICE](README.md) - [03-Esempi](03-Esempi.md)

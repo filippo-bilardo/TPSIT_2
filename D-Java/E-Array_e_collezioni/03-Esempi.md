@@ -180,4 +180,4 @@ Array con numeri da 100 a 1000:
 
 Con questo codice, otteniamo due array con numeri casuali rispettivamente tra `0-100` e `100-1000`, riempiendo automaticamente ciascun array con valori generati randomicamente all'interno degli intervalli desiderati.
 
-[02-Array](02-Array.md) - [04-Eccezioni.md](04-Eccezioni.md)
+[02-Array](02-Array.md) - [INDICE](README.md) - [04-Eccezioni.md](04-Eccezioni.md)

@@ -119,4 +119,4 @@ In questo esempio, utilizziamo due cicli `for` per attraversare ogni elemento de
 ### Conclusione
 Gli array multidimensionali in Java permettono di rappresentare strutture di dati complesse come matrici, tabelle, cubi e altre forme di dati multi-livello. Sebbene la gestione degli array multidimensionali richieda cicli annidati e una sintassi di accesso più complessa, essi sono strumenti potenti per l’organizzazione di dati in applicazioni avanzate.
 
-[07-Array di oggetti](07-Array%20di%20oggetti.md) - [09-Passaggio di array come argomenti](09-Passaggio%20di%20array%20come%20argomenti.md)
+[07-Array di oggetti](07-Array%20di%20oggetti.md) - [INDICE](README.md) - [09-Passaggio di array come argomenti](09-Passaggio%20di%20array%20come%20argomenti.md)

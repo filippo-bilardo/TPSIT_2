@@ -128,4 +128,4 @@ Il metodo `sommaMatrice` accetta un array bidimensionale e somma tutti i suoi el
 ### Conclusione
 Il passaggio di array come argomenti nei metodi è una funzionalità molto utile in Java, che permette di elaborare dati complessi in modo modulare e flessibile. Grazie al passaggio per riferimento, Java consente di manipolare gli array direttamente, semplificando molte operazioni su collezioni di dati e permettendo di strutturare il codice in modo più organizzato e riutilizzabile.
 
-[08-Array multidimensionali](08-Array%20multidimensionali.md) - [10-Passaggio di argomenti dalla riga di comando](10-Passaggio%20di%20argomenti%20dalla%20riga%20di%20comando.md)
+[08-Array multidimensionali](08-Array%20multidimensionali.md) - [INDICE](README.md) - [10-Passaggio di argomenti dalla riga di comando](10-Passaggio%20di%20argomenti%20dalla%20riga%20di%20comando.md)

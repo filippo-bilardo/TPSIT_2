@@ -110,4 +110,4 @@ In questo esempio:
 
 Il passaggio di argomenti dalla riga di comando offre un modo semplice e flessibile per personalizzare l'esecuzione dei programmi Java. È utile per testare diverse configurazioni, accettare input dinamici e rendere i programmi più interattivi e versatili.
 
-[09-Passaggio di array come argomenti](09-Passaggio%20di%20array%20come%20argomenti.md) - [11-La classe Arrays](11-La%20classe%20Arrays.md)
+[09-Passaggio di array come argomenti](09-Passaggio%20di%20array%20come%20argomenti.md) - [INDICE](README.md) - [11-La classe Arrays](11-La%20classe%20Arrays.md)

@@ -146,4 +146,4 @@
 17. B  
 18. B  
 
-[12-ArrayList](12-ArrayList.md) - [14-Panoramica del Framework delle Collezioni di Java.md](14-Panoramica%20del%20Framework%20delle%20Collezioni%20di%20Java.md)
+[12-ArrayList](12-ArrayList.md) - [INDICE](README.md) - [14-Panoramica del Framework delle Collezioni di Java.md](14-Panoramica%20del%20Framework%20delle%20Collezioni%20di%20Java.md)
