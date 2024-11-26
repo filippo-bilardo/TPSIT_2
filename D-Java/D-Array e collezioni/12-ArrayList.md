@@ -183,4 +183,4 @@ Charlie
 
 La classe `ArrayList` rappresenta una soluzione flessibile e potente per gestire collezioni di dati che richiedono una dimensione variabile. Grazie ai numerosi metodi disponibili, `ArrayList` offre grande semplicità di utilizzo e versatilità rispetto agli array tradizionali. Tuttavia, in contesti che richiedono una gestione efficiente delle operazioni di inserimento e rimozione, specialmente in mezzo alla lista, potrebbero essere più adatte altre strutture come la `LinkedList`.
 
-[11-La classe Arrays](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/11-La%20classe%20Arrays.md) - [13-Quiz di autovalutazione](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/13-Quiz%20di%20autovalutazione.md)
+[11-La classe Arrays](11-La%20classe%20Arrays.md) - [13-Quiz di autovalutazione](13-Quiz%20di%20autovalutazione.md)

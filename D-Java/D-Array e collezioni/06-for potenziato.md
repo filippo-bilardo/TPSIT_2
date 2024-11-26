@@ -219,4 +219,4 @@ public class MatriceForEach {
 
 Questo approccio è particolarmente leggibile e funziona bene quando l'obiettivo è accedere semplicemente a ogni elemento di una matrice senza modificare il suo contenuto.
 
-[05-Esempio mazzo di carte.md](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/05-Esempio%20mazzo%20di%20carte.md) - [07-Array di oggetti](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/07-Array%20di%20oggetti.md)
+[05-Esempio mazzo di carte.md](05-Esempio%20mazzo%20di%20carte.md) - [07-Array di oggetti](07-Array%20di%20oggetti.md)

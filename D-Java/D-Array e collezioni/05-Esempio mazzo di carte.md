@@ -140,4 +140,4 @@ Re di Quadri
 ### Conclusione
 Con queste classi, abbiamo implementato una simulazione completa di un mazzo di carte da gioco. La classe `Carta` rappresenta ogni carta con un seme e un valore, mentre la classe `MazzoDiCarte` gestisce l’intero mazzo, fornendo metodi per mescolare e distribuire le carte. Questo esempio mostra l’utilità degli array e degli oggetti per la gestione e manipolazione di dati complessi, e serve come base per ulteriori estensioni come l’implementazione di giochi di carte più sofisticati.
 
-[04-Eccezioni.md](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/04-Eccezioni.md) - [06-for potenziato](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/06-for%20potenziato.md)
+[04-Eccezioni.md](04-Eccezioni.md) - [06-for potenziato](06-for%20potenziato.md)

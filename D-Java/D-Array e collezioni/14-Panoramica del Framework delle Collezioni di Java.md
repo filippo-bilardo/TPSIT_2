@@ -109,4 +109,4 @@ Il JCF offre molti vantaggi, tra cui:
 
 Il Java Collections Framework rappresenta un elemento fondamentale per la gestione dei dati nelle applicazioni Java. Comprendere le differenze tra le varie interfacce e classi e quando utilizzarle permette di scrivere codice più efficiente, leggibile e scalabile. Dalla gestione di semplici liste a strutture dati avanzate come mappe e code, il JCF fornisce un set completo di strumenti per affrontare esigenze di memorizzazione e manipolazione dati.
 
-[13-Quiz di autovalutazione](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/13-Quiz%20di%20autovalutazione.md)
+[13-Quiz di autovalutazione](13-Quiz%20di%20autovalutazione.md)

@@ -146,4 +146,4 @@
 17. B  
 18. B  
 
-[12-ArrayList](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/12-ArrayList.md) - [14-Panoramica del Framework delle Collezioni di Java.md](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/14-Panoramica%20del%20Framework%20delle%20Collezioni%20di%20Java.md)
+[12-ArrayList](12-ArrayList.md) - [14-Panoramica del Framework delle Collezioni di Java.md](14-Panoramica%20del%20Framework%20delle%20Collezioni%20di%20Java.md)

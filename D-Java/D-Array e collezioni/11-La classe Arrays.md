@@ -254,4 +254,4 @@ Indice della prima differenza: 0
 
 La classe `Arrays` fornisce numerosi metodi potenti che rendono la manipolazione degli array più semplice, efficiente e leggibile. Da operazioni di base come il riempimento e l'ordinamento fino a metodi avanzati come `parallelSort`, `stream` e `setAll`, questa classe consente di svolgere operazioni complesse su array con poche righe di codice. Conoscere questi metodi consente di scrivere codice Java più chiaro e ottimizzato per operazioni che coinvolgono la gestione di dati in strutture di array.
 
-[10-Passaggio di argomenti dalla riga di comando](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/10-Passaggio%20di%20argomenti%20dalla%20riga%20di%20comando.md) - [12-ArrayList.md](https://github.com/filippo-bilardo/TPSIT_2/blob/main/D-Java/DOCS/D-Array%20e%20collezioni/12-ArrayList.md)
+[10-Passaggio di argomenti dalla riga di comando](10-Passaggio%20di%20argomenti%20dalla%20riga%20di%20comando.md) - [12-ArrayList.md](12-ArrayList.md)
