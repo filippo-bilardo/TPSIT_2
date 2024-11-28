@@ -74,6 +74,7 @@ Ogni elemento dell’array `nomi` viene assegnato alla variabile `nome` per ogni
 ### Limiti del For Potenziato
 1. **Accesso Limitato agli Indici**: Nel for potenziato non si può accedere direttamente agli indici dell’array o della collezione. Questo può rappresentare un problema se si ha bisogno dell’indice per modificare gli elementi o per altre operazioni specifiche.
 2. **Modifiche Limitate**: Non è possibile aggiornare o modificare direttamente gli elementi dell’array. Il for potenziato è principalmente progettato per leggere i dati, non per modificarli.
+Con il for-each, puoi modificare gli stati degli oggetti iterati (se sono di tipo riferimento), ma non puoi cambiare i riferimenti agli elementi della collezione o dell'array originale. Per modifiche ai riferimenti o alla struttura sottostante, è necessario usare un ciclo for tradizionale o un iteratore appropriato per le collezioni.
 3. **Non Applicabile a Tutte le Collezioni**: Funziona solo con array e collezioni che implementano l'interfaccia `Iterable`. Non è utilizzabile, ad esempio, con mappe (`Map`), a meno di iterare separatamente sulle chiavi o sui valori.
 
 ### Esempio: Modifica degli Elementi
