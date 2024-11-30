@@ -1,4 +1,4 @@
-Confronterò la classe `java.util.Random` e il metodo statico `Math.random()` in Java, spiegando le loro caratteristiche, differenze e casi d'uso.
+Confronto tra la classe `java.util.Random` e il metodo statico `Math.random()` 
 
 ### Classe `java.util.Random`
 
@@ -76,5 +76,3 @@ public class RandomExample {
     }
 }
 ```
-
-Entrambi gli approcci sono validi, la scelta dipende dalle specifiche esigenze del tuo programma.

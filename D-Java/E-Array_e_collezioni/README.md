@@ -1,4 +1,4 @@
-# TPSIT_2 - D-Array e collezioni
+# D - Array e collezioni
 
 ### Esercitazioni
 - [ES05 - Array](https://docs.google.com/presentation/d/1rooTMNHs3iRwuCrYiVeyDeGMQ9Vhiml6aPJrZCsIktE/edit?usp=sharing)
