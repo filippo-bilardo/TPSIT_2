@@ -1,1 +1,0 @@
-# C - Risorse e condivisione
