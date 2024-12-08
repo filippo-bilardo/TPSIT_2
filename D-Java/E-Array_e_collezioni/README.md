@@ -1,4 +1,4 @@
-# D - Array e collezioni
+## D - Array e collezioni
 
 ### Esercitazioni
 - [ES05 - Array](https://docs.google.com/presentation/d/1rooTMNHs3iRwuCrYiVeyDeGMQ9Vhiml6aPJrZCsIktE/edit?usp=sharing)
@@ -21,13 +21,8 @@
 - [14-Panoramica del Framework delle Collezioni di Java](<14-Panoramica del Framework delle Collezioni di Java.md>) 
 - [15-Array e algoritmi](<15-Array e algoritmi.md>) 
 - [16-System.arraycopy](16-System.arraycopy.md)
-
-
----
-
-2. Mappe e Set<br>
-   2.1. Utilizzo di HashMap e HashSet<br>
-   2.2. Operazioni di base sulle mappe e i set<br>
+- 17 Utilizzo di HashMap e HashSet
+- 18 Operazioni di base sulle mappe e i set
 
 --- 
 [INDICE](../README.md) 
