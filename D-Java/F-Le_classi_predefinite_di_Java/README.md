@@ -1,6 +1,6 @@
+## F - Utilizzo delle classi predefinite di Java
 ### Esercitazioni
-
-### Teoria **Utilizzo delle classi predefinite di Java**
+### Teoria 
 - [01-Numeri Random](<01-Numeri Random.md>) 
 - [02-Math.random](02-Math.random.md)
 - 03 String, Math, Scanner, ecc.

@@ -1,6 +1,6 @@
+## B - Ambiente di sviluppo
 ### Esercitazioni
-
-### Teoria **Ambiente di sviluppo**
+### Teoria
 2. Installazione e configurazione dell'ambiente di sviluppo<br>
    2.1. Download e installazione di Java Development Kit (JDK)<br>
    2.2. Configurazione di un IDE (Integrated Development Environment)<br>

@@ -1,5 +1,5 @@
-
-### Teoria **Programmazione orientata agli oggetti (OOP)**
+## I - Programmazione orientata agli oggetti (OOP)
+### Esercitazioni
 ### 1. **Introduzione alla Programmazione Orientata agli Oggetti (OOP)**
 - [01.1 Concetti Fondamentali dell'OOP](<01.1 Concetti Fondamentali dell'OOP.md>) 
 - [01.2 Differenze tra Programmazione Procedurale e Orientata agli Oggetti](<01.2 Differenze tra Programmazione Procedurale e Orientata agli Oggetti.md>) 

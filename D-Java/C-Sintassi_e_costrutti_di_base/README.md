@@ -1,6 +1,6 @@
+## C - Concetti di base di programmazione in Java
 ### Esercitazioni
-
-### Teoria **Concetti di base di programmazione in Java**
+### Teoria 
 1. Variabili e tipi di dati<br>
    1.1. Dichiarazione di variabili<br>
    1.2. Tipi di dati primitivi<br>

@@ -5,8 +5,8 @@
 - [ES06 - Array e Collezioni](https://docs.google.com/presentation/d/1fItaVWeMDw0tpwTN4YxHgDMHgFaWTbhxkEjtUZX2vDw/edit?usp=sharing)
 
 ### Teoria
-- [01. Introduzione](01-Introduzione.md)
-- [02. Array](02-Array.md)
+- [01-Introduzione](01-Introduzione.md)
+- [02-Array](02-Array.md)
 - [03-Esempi](03-Esempi.md)
 - [04-Eccezioni](04-Eccezioni.md) 
 - [05-Esempio mazzo di carte](<05-Esempio mazzo di carte.md>) 
@@ -21,8 +21,8 @@
 - [14-Panoramica del Framework delle Collezioni di Java](<14-Panoramica del Framework delle Collezioni di Java.md>) 
 - [15-Array e algoritmi](<15-Array e algoritmi.md>) 
 - [16-System.arraycopy](16-System.arraycopy.md)
-- 17 Utilizzo di HashMap e HashSet
-- 18 Operazioni di base sulle mappe e i set
+- 17-Utilizzo di HashMap e HashSet
+- 18-Operazioni di base sulle mappe e i set
 
 --- 
 [INDICE](../README.md) 
