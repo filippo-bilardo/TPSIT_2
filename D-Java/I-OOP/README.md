@@ -7,20 +7,20 @@
 - [01.5 OOP in Java: una Panoramica](<01.5 OOP in Java: una Panoramica.md>) 
 
 ### 2. **Classi e Oggetti**
-2.1 Definizione di Classe e Oggetto  
-2.2 Dichiarazione e Creazione di Oggetti  
-2.3 Variabili di Classe e di Istanza  
-2.4 Il Costruttore: Scopo e Utilizzo  
-2.5 Metodi: Dichiarazione e Chiamata  
-2.6 `this`: Contesto dell'Oggetto Corrente  
-2.7 Esercitazioni Pratiche  
+- 02.1 Definizione di Classe e Oggetto  
+- 02.2 Dichiarazione e Creazione di Oggetti  
+- 02.3 Variabili di Classe e di Istanza  
+- 02.4 Il Costruttore: Scopo e Utilizzo  
+- 02.5 Metodi: Dichiarazione e Chiamata  
+- 02.6 `this`: Contesto dell'Oggetto Corrente  
+- 02.7 Esercitazioni Pratiche  
 
 ### 3. **Incapsulamento**
-3.1 Concetto di Incapsulamento  
-3.2 Modificatori di Accesso: `private`, `public`, `protected`  
-3.3 Metodi Getter e Setter  
-3.4 Vantaggi dell’Incapsulamento  
-3.5 Esercitazioni Pratiche  
+- 03.1 Concetto di Incapsulamento  
+- 03.2 Modificatori di Accesso: `private`, `public`, `protected`  
+- 03.3 Metodi Getter e Setter  
+- 03.4 Vantaggi dell’Incapsulamento  
+- 03.5 Esercitazioni Pratiche  
 
 ### 4. **Ereditarietà**
 - [04.1 Introduzione all'Ereditarietà](<04.1 Introduzione all'Ereditarietà.md>) 
