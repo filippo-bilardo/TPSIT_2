@@ -16,11 +16,9 @@
 - 02.7 Esercitazioni Pratiche  
 
 ### 3. **Incapsulamento**
-- 03.1 Concetto di Incapsulamento  
-- 03.2 Modificatori di Accesso: `private`, `public`, `protected`  
-- 03.3 Metodi Getter e Setter  
-- 03.4 Vantaggi dell’Incapsulamento  
-- 03.5 Esercitazioni Pratiche  
+- [03.1 Concetto di Incapsulamento](<03.1 Concetto di Incapsulamento.md>)  
+- [03.2 Metodi Getter e Setter](<03.2 Metodi Getter e Setter.md>)  
+- [03.3 Vantaggi dell’Incapsulamento](<03.3 Vantaggi dell'Incapsulamento.md>)  
 
 ### 4. **Ereditarietà**
 - [04.1 Introduzione all'Ereditarietà](<04.1 Introduzione all'Ereditarietà.md>) 
