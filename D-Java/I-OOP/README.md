@@ -1,6 +1,7 @@
 ## I - Programmazione orientata agli oggetti (OOP)
 ### Esercitazioni
-- 
+- [ES03 - Classi e oggetti](<https://docs.google.com/presentation/d/1vUPCNzBxI0KDFnFaV9lN7RT-1Y1f0pnT5YgmK6cvR58>)
+- [ES07 - Eridatarietà](<https://docs.google.com/presentation/d/1NVfkSnLjKX5AB_IxwsuuKdn-xbEa-2s0JDpjj9B5UqU/edit?usp=sharing>)
 
 ### Teoria
 ### 1. **Introduzione alla Programmazione Orientata agli Oggetti (OOP)**
@@ -31,6 +32,7 @@
    - [04.5 Uso della Parola Chiave super](<04.5 Uso della Parola Chiave super.md>) 
    - [04.6 Ereditarietà Multipla (Tramite Interfacce)](<04.6 Ereditarietà Multipla (Tramite Interfacce)  .md>) 
    - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Problemi e Best Practice dell'Ereditarietà.md>) 
+   - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
   
 --- 
 [INDICE](../README.md) 
