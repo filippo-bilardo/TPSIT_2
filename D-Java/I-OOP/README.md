@@ -39,7 +39,7 @@
    - [04.9 La classe Object](<04.9 La classe Object.md>) 
 
 ### 5. **Polimorfismo e Classi Astratte**
-    - Introduzione al polimorfismo
-    - Classi astratte e interfacce
+ - Introduzione al polimorfismo
+ - Classi astratte e interfacce 
 --- 
 [INDICE](../README.md) 
