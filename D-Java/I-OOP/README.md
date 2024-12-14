@@ -23,6 +23,7 @@
    - [03.1 Concetto di Incapsulamento](<03.1 Concetto di Incapsulamento.md>)  
    - [03.2 Metodi Getter e Setter](<03.2 Metodi Getter e Setter.md>)  
    - [03.3 Vantaggi dell’Incapsulamento](<03.3 Vantaggi dell'Incapsulamento.md>)  
+   - [03.4 Esercitazioni Pratiche](<03.4 Esercitazioni Pratiche.md>)  
 
 ### 4. **Ereditarietà**
    - [04.1 Introduzione all'Ereditarietà](<04.1 Introduzione all'Ereditarietà.md>) 
@@ -33,6 +34,9 @@
    - [04.6 Ereditarietà Multipla (Tramite Interfacce)](<04.6 Ereditarietà Multipla (Tramite Interfacce)  .md>) 
    - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Problemi e Best Practice dell'Ereditarietà.md>) 
    - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
-  
+   - [04.9 La classe Object](<04.9 La classe Object.md>) 
+
+### 5. **Polimorfismo**
+
 --- 
 [INDICE](../README.md) 
