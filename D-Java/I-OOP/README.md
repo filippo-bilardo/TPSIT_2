@@ -9,6 +9,8 @@
    - [01.2 Differenze tra Programmazione Procedurale e Orientata agli Oggetti](<01.2 Differenze tra Programmazione Procedurale e Orientata agli Oggetti.md>) 
    - [01.3 Benefici dell’OOP](<01.3 Benefici dell’OOP.md>) 
    - [01.4 Storia e Principi della Programmazione a Oggetti](<01.4 Storia e Principi della Programmazione a Oggetti.md>) 
+   - [05.1 Sintassi e convenzioni di codice](<05.1 Sintassi e convenzioni di codice.md>)
+   - Configurazione dell’ambiente di sviluppo
 
 ### 2. **Classi e Oggetti**
    - [02.1 Definizione di Classe e Oggetto](<02.1 Definizione di Classe e Oggetto.md>)  
@@ -36,7 +38,8 @@
    - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
    - [04.9 La classe Object](<04.9 La classe Object.md>) 
 
-### 5. **Polimorfismo**
-
+### 5. **Polimorfismo e Classi Astratte**
+    - Introduzione al polimorfismo
+    - Classi astratte e interfacce
 --- 
 [INDICE](../README.md) 

@@ -13,6 +13,7 @@
 - 02.4 Variabili di tipo riferimento
 - 02.5 Variabili di classe e di istanza
 - 02.6 Parametri dei metodi
+- Autoboxing e unboxing
 - 02.7 Le classi wrapper
 - 02.8 Variabili locali, globali e scope
 - 02.9 Casting per la conversione di tipo
@@ -26,6 +27,7 @@
 - 05.1 Istruzioni condizionali (if, else if, else)
 - 05.2 Istruzioni di controllo di flusso avanzate (switch)
 - 05.3 Cicli (for, while, do-while)
-
+- 05.4 Il ciclo for potenziato (for-each)
+s
 --- 
 [INDICE](../README.md) 
