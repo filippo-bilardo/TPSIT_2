@@ -1,7 +1,8 @@
 ## I - Programmazione orientata agli oggetti (OOP)
 ### Esercitazioni
 - [ES03 - Classi e oggetti](<https://docs.google.com/presentation/d/1vUPCNzBxI0KDFnFaV9lN7RT-1Y1f0pnT5YgmK6cvR58>)
-- [ES07 - Eridatarietà](<https://docs.google.com/presentation/d/1NVfkSnLjKX5AB_IxwsuuKdn-xbEa-2s0JDpjj9B5UqU/edit?usp=sharing>)
+- [ES07 - Incapsulamento](<https://docs.google.com/presentation/d/1WpWviW5Mo3KGb9ilb_oSye03B339imlmYbw6cvbuwBw>)
+- [ES08 - Eridatarietà](<https://docs.google.com/presentation/d/1NVfkSnLjKX5AB_IxwsuuKdn-xbEa-2s0JDpjj9B5UqU>)
 
 ### Teoria
 ### 1. **Introduzione alla Programmazione Orientata agli Oggetti (OOP)**
@@ -9,8 +10,8 @@
    - [01.2 Differenze tra Programmazione Procedurale e Orientata agli Oggetti](<01.2 Differenze tra Programmazione Procedurale e Orientata agli Oggetti.md>) 
    - [01.3 Benefici dell’OOP](<01.3 Benefici dell’OOP.md>) 
    - [01.4 Storia e Principi della Programmazione a Oggetti](<01.4 Storia e Principi della Programmazione a Oggetti.md>) 
-   - [05.1 Sintassi e convenzioni di codice](<05.1 Sintassi e convenzioni di codice.md>)
-   - Configurazione dell’ambiente di sviluppo
+   - [01.5 Sintassi e convenzioni di codice](<01.5 Sintassi e convenzioni di codice.md>)
+   - [01.6 Configurazione dell’ambiente di sviluppo](<01.6 Configurazione dell’ambiente di sviluppo.md>)
 
 ### 2. **Classi e Oggetti**
    - [02.1 Definizione di Classe e Oggetto](<02.1 Definizione di Classe e Oggetto.md>)  
@@ -34,12 +35,17 @@
    - [04.4 Sovrascrittura dei Metodi (@Override)](<04.4 Sovrascrittura dei Metodi (@Override).md>) 
    - [04.5 Uso della Parola Chiave super](<04.5 Uso della Parola Chiave super.md>) 
    - [04.6 Ereditarietà Multipla (Tramite Interfacce)](<04.6 Ereditarietà Multipla (Tramite Interfacce)  .md>) 
-   - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Problemi e Best Practice dell'Ereditarietà.md>) 
+   - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Prsoblemi e Best Practice dell'Ereditarietà.md>) 
    - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
    - [04.9 La classe Object](<04.9 La classe Object.md>) 
 
 ### 5. **Polimorfismo e Classi Astratte**
- - Introduzione al polimorfismo
- - Classi astratte e interfacce 
+   - [05.1 Concetti Fondamentali del Polimorfismo](<05.1 Concetti Fondamentali del Polimorfismo.md>)
+   - [05.2 Classi Astratte: Definizione e Utilizzo](<05.2 Classi Astratte: Definizione e Utilizzo.md>)
+   - [05.3 Sovrascrittura dei Metodi (@Override)](<05.3 Sovrascrittura dei Metodi (@Override).md>)
+   - [05.4 Implementazione del Polimorfismo con Classi Astratte](<05.4 Implementazione del Polimorfismo con Classi Astratte.md>)
+   - [05.5 Classi Astratte e Interfacce: Un Confronto](<05.5 Classi Astratte e Interfacce: Un Confronto.md>)
+   - [05.6 Esercitazioni pratiche](<05.6 Esercitazioni pratiche.md>)
+
 --- 
 [INDICE](../README.md) 
