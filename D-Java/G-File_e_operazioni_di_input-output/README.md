@@ -1,15 +1,6 @@
 ## G - File e operazioni di input/output
 ### Esercitazioni
 ### Teoria 
-1. Lettura e scrittura dei dati<br>
-   1.1. Utilizzo di BufferedReader e BufferedWriter<br>
-   1.2. Gestione di file di testo<br>
-2. File e Stream
-   2.1 Concetti Base di Input/Output
-   3.2 Lettura e Scrittura di File di Testo  
-   3.3 Serializzazione e Deserializzazione di Oggetti  
-   4.4 Stream di Byte e di Caratteri  
-
    - [01.1 Introduzione all'Input_Output in Java](<01.1 Introduzione all'Input_Output in Java.md>)
       - 1.1 Panoramica sulle librerie di I/O in Java
       - 1.2 Utilizzo del Pattern Decorator per l'I/O
@@ -47,10 +38,9 @@
       - 10.1 Serializzazione di vettori
       - 10.2 Serializzazione di oggetti complessi come `Rettangolo`
       - 10.3 Deserializzazione di oggetti da file
+      - [10.4 Creazione di un semplice editor di file](<01.10.4 Creazione di un semplice editor di file.md>)
+      - [10.5 Implementazione di un sistema di log basato su file](<01.10.5 Implementazione di un sistema di log basato su file.md>)
+      - [10.6 Serializzazione di un grafico di oggetti complessi](<01.10.6 Serializzazione di un grafico di oggetti complessi.md>)
 
-[6](<6.6.1 Creazione di un semplice editor di file.md>)
-[7](<6.6.2 Implementazione di un sistema di log basato su file.md>)
-[8](<6.6.3 Serializzazione di un grafico di oggetti complessi.md>)
-@erasmoinrete.it
 --- 
 [INDICE](../README.md) 
