@@ -41,10 +41,10 @@
 
 ### 5. **Polimorfismo e Classi Astratte**
    - [05.1 Concetti Fondamentali del Polimorfismo](<05.1 Concetti Fondamentali del Polimorfismo.md>)
-   - [05.2 Classi Astratte: Definizione e Utilizzo](<05.2 Classi Astratte: Definizione e Utilizzo.md>)
+   - [05.2 Classi Astratte_ Definizione e Utilizzo](<05.2 Classi Astratte_ Definizione e Utilizzo.md>)
    - [05.3 Sovrascrittura dei Metodi (@Override)](<05.3 Sovrascrittura dei Metodi (@Override).md>)
    - [05.4 Implementazione del Polimorfismo con Classi Astratte](<05.4 Implementazione del Polimorfismo con Classi Astratte.md>)
-   - [05.5 Classi Astratte e Interfacce: Un Confronto](<05.5 Classi Astratte e Interfacce: Un Confronto.md>)
+   - [05.5 Classi Astratte e Interfacce_ Un Confronto](<05.5 Classi Astratte e Interfacce_ Un Confronto.md>)
    - [05.6 Esercitazioni pratiche](<05.6 Esercitazioni pratiche.md>)
 
 --- 
