@@ -41,6 +41,8 @@
       - [10.4 Creazione di un semplice editor di file](<01.10.4 Creazione di un semplice editor di file.md>)
       - [10.5 Implementazione di un sistema di log basato su file](<01.10.5 Implementazione di un sistema di log basato su file.md>)
       - [10.6 Serializzazione di un grafico di oggetti complessi](<01.10.6 Serializzazione di un grafico di oggetti complessi.md>)
+   - [01.11 Esercitazioni pratiche](<01.11 Esercitazioni pratiche.md>)
+   
 
 --- 
 [INDICE](../README.md) 
