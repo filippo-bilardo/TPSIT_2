@@ -21,12 +21,14 @@
    - [02.5 Metodi: Dichiarazione e Chiamata](<02.5 Metodi_ Dichiarazione e Chiamata.md>)
    - [02.6 this: Contesto dell'Oggetto Corrente](<02.6 this_ Contesto dell'Oggetto Corrente.md>)  
    - [02.7 Esercitazioni Pratiche](<02.7 Esercitazioni Pratiche.md>)  
+   - [02.8 Quiz di autovalutazione](<02.8 Quiz di autovalutazione.md>)  
 
 ### 3. **Incapsulamento**
    - [03.1 Concetto di Incapsulamento](<03.1 Concetto di Incapsulamento.md>)  
    - [03.2 Metodi Getter e Setter](<03.2 Metodi Getter e Setter.md>)  
    - [03.3 Vantaggi dell’Incapsulamento](<03.3 Vantaggi dell'Incapsulamento.md>)  
    - [03.4 Esercitazioni Pratiche](<03.4 Esercitazioni Pratiche.md>)  
+   - [03.5 Quiz di autovalutazione](<03.5 Quiz di autovalutazione.md>)  
 
 ### 4. **Ereditarietà**
    - [04.1 Introduzione all'Ereditarietà](<04.1 Introduzione all'Ereditarietà.md>) 
@@ -38,6 +40,7 @@
    - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Prsoblemi e Best Practice dell'Ereditarietà.md>) 
    - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
    - [04.9 La classe Object](<04.9 La classe Object.md>) 
+   - [04.10 Quiz di autovalutazione](<04.10 Quiz di autovalutazione.md>)  
 
 ### 5. **Polimorfismo e Classi Astratte**
    - [05.1 Concetti Fondamentali del Polimorfismo](<05.1 Concetti Fondamentali del Polimorfismo.md>)
@@ -46,6 +49,7 @@
    - [05.4 Implementazione del Polimorfismo con Classi Astratte](<05.4 Implementazione del Polimorfismo con Classi Astratte.md>)
    - [05.5 Classi Astratte e Interfacce_ Un Confronto](<05.5 Classi Astratte e Interfacce_ Un Confronto.md>)
    - [05.6 Esercitazioni pratiche](<05.6 Esercitazioni pratiche.md>)
+   - [05.7 Quiz di autovalutazione](<05.7 Quiz di autovalutazione.md>)  
 
 --- 
 [INDICE](../README.md) 
