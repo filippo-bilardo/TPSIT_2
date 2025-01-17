@@ -25,5 +25,8 @@
    - 3.2 Differenze tra processi e thread
    - 3.3 Creazione e gestione dei thread in C con `pthread`
 
+4. **Thread in Java**
+   - [Thread in Java](<03.1 Introduzione ai thread.md>)
+
 ---
 [Corso TPSIT2](../README.md) 
