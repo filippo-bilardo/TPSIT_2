@@ -1,5 +1,11 @@
 ## A - Processi sequenziali e paralleli
 
+---
+### Esercitazioni
+  - 
+  
+---
+### Teoria
 1. **Introduzione ai Processi**  
    - [01.1 Concetti fondamentali sui processi](<01.1 Concetti fondamentali sui processi.md>)
    - [01.2 Tipi di processi: sequenziali e paralleli](<01.2 Tipi di processi_ sequenziali e paralleli.md>)
