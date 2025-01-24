@@ -4,26 +4,26 @@
 - [ES01](<>)
 
 ### Teoria
-   - [01.0 Introduzione alla Gestione delle Eccezioni](<01.0 Introduzione alla Gestione delle Eccezioni.md>)
-   - [01.1 Concetti di Base delle Eccezioni](<01.1 Concetti di Base delle Eccezioni.md>)
-   - [01.2 Differenze tra Errori ed Eccezioni](<01.2 Differenze tra Errori ed Eccezioni.md>)
-   - [01.3 Architettura delle eccezioni in Java](<01.3 Architettura delle eccezioni in Java.md>)
-   - [01.4 Esempi di Eccezioni Comuni in Java](<1.4 Esempi di Eccezioni Comuni in Java.md>)
-   - [01.5 Meccanismo di gestione delle eccezioni da parte della JVM](<01.5 Meccanismo di gestione delle eccezioni da parte della JVM.md>)
+  - [01.0 Introduzione alla Gestione delle Eccezioni](<01.0 Introduzione alla Gestione delle Eccezioni.md>)
+  - [01.1 Concetti di Base delle Eccezioni](<01.1 Concetti di Base delle Eccezioni.md>)
+  - [01.2 Differenze tra Errori ed Eccezioni](<01.2 Differenze tra Errori ed Eccezioni.md>)
+  - [01.3 Architettura delle eccezioni in Java](<01.3 Architettura delle eccezioni in Java.md>)
+  - [01.4 Esempi di Eccezioni Comuni in Java](<1.4 Esempi di Eccezioni Comuni in Java.md>)
+  - [01.5 Meccanismo di gestione delle eccezioni da parte della JVM](<01.5 Meccanismo di gestione delle eccezioni da parte della JVM.md>)
 
-   - [02.0 Uso dei Blocchi try, catch, finally](<02.0 Uso dei Blocchi try, catch, finally.md>) 
-   - [02.1 Sintassi e struttura dei blocchi try e catch](<02.1 Sintassi e struttura dei blocchi try e catch.md>) 
-   - [02.2 Utilizzo del blocco finally](<02.2 Utilizzo del blocco finally.md>) 
-   - [02.3 Gestione di eccezioni multiple](<02.3 Gestione di eccezioni multiple.md>) 
-   - [02.4 Buone Pratiche nella Gestione dei Blocchi try-catch-finally](<02.4 Buone Pratiche nella Gestione dei Blocchi try-catch-finally.md>) 
-   - [02.5 Esempi pratici di gestione delle eccezioni](<02.5 Esempi pratici di gestione delle eccezioni.md>)
-   - [02.6 Quiz di autovalutazione](<02.6 Quiz di autovalutazione.md>)
-   - [02.7 Esercitazioni pratiche](<02.7 Esercitazioni pratiche.md>)
-   - [02.8 Try-With-Resources](<02.8 Try-With-Resources.md>)
+  - [02.0 Uso dei Blocchi try, catch, finally](<02.0 Uso dei Blocchi try, catch, finally.md>) 
+  - [02.1 Sintassi e struttura dei blocchi try e catch](<02.1 Sintassi e struttura dei blocchi try e catch.md>) 
+  - [02.2 Utilizzo del blocco finally](<02.2 Utilizzo del blocco finally.md>) 
+  - [02.3 Gestione di eccezioni multiple](<02.3 Gestione di eccezioni multiple.md>) 
+  - [02.4 Buone Pratiche nella Gestione dei Blocchi try-catch-finally](<02.4 Buone Pratiche nella Gestione dei Blocchi try-catch-finally.md>) 
+  - [02.5 Esempi pratici di gestione delle eccezioni](<02.5 Esempi pratici di gestione delle eccezioni.md>)
+  - [02.6 Quiz di autovalutazione](<02.6 Quiz di autovalutazione.md>)
+  - [02.7 Esercitazioni pratiche](<02.7 Esercitazioni pratiche.md>)
+  - [02.8 Try-With-Resources](<02.8 Try-With-Resources.md>)
 
 
 
-   - [03.1 Gerarchia delle classi delle eccezioni](<03.1 Gerarchia delle classi delle eccezioni.md>) 
+  - [03.1 Gerarchia delle classi delle eccezioni](<03.1 Gerarchia delle classi delle eccezioni.md>) 
       - Creazione di eccezioni personalizzate: estendere la classe `Exception` o `RuntimeException`.
       - Quando usare eccezioni personalizzate.
       - Esempi di utilizzo pratico di eccezioni personalizzate in progetti reali.
