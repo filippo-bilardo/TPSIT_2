@@ -5,12 +5,12 @@
 
 ### Teoria
 1. **Introduzione**
-  - [01.0 Introduzione alla Gestione delle Eccezioni](<01.0 Introduzione alla Gestione delle Eccezioni.md>)
-  - [01.1 Concetti di Base delle Eccezioni](<01.1 Concetti di Base delle Eccezioni.md>)
-  - [01.2 Differenze tra Errori ed Eccezioni](<01.2 Differenze tra Errori ed Eccezioni.md>)
-  - [01.3 Architettura delle eccezioni in Java](<01.3 Architettura delle eccezioni in Java.md>)
-  - [01.4 Esempi di Eccezioni Comuni in Java](<1.4 Esempi di Eccezioni Comuni in Java.md>)
-  - [01.5 Meccanismo di gestione delle eccezioni da parte della JVM](<01.5 Meccanismo di gestione delle eccezioni da parte della JVM.md>)
+   - [01.0 Introduzione alla Gestione delle Eccezioni](<01.0 Introduzione alla Gestione delle Eccezioni.md>)
+   - [01.1 Concetti di Base delle Eccezioni](<01.1 Concetti di Base delle Eccezioni.md>)
+   - [01.2 Differenze tra Errori ed Eccezioni](<01.2 Differenze tra Errori ed Eccezioni.md>)
+   - [01.3 Architettura delle eccezioni in Java](<01.3 Architettura delle eccezioni in Java.md>)
+   - [01.4 Esempi di Eccezioni Comuni in Java](<1.4 Esempi di Eccezioni Comuni in Java.md>)
+   - [01.5 Meccanismo di gestione delle eccezioni da parte della JVM](<01.5 Meccanismo di gestione delle eccezioni da parte della JVM.md>)
 
 2. **I Blocchi try, catch, finally**
   - [02.0 Uso dei Blocchi try, catch, finally](<02.0 Uso dei Blocchi try, catch, finally.md>) 
