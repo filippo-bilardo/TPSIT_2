@@ -9,19 +9,21 @@
    - [01.2 Differenze tra Errori ed Eccezioni](<01.2 Differenze tra Errori ed Eccezioni.md>)
    - [01.3 Architettura delle eccezioni in Java](<01.3 Architettura delle eccezioni in Java.md>)
    - [01.4 Esempi di Eccezioni Comuni in Java](<1.4 Esempi di Eccezioni Comuni in Java.md>)
+   - [01.5 Meccanismo di gestione delle eccezioni da parte della JVM](<01.5 Meccanismo di gestione delle eccezioni da parte della JVM.md>)
 
    - [02.0 Uso dei Blocchi try, catch, finally](<02.0 Uso dei Blocchi try, catch, finally.md>) 
    - [02.1 Sintassi e struttura dei blocchi try e catch](<02.1 Sintassi e struttura dei blocchi try e catch.md>) 
    - [02.2 Utilizzo del blocco finally](<02.2 Utilizzo del blocco finally.md>) 
    - [02.3 Gestione di eccezioni multiple](<02.3 Gestione di eccezioni multiple.md>) 
    - [02.4 Buone Pratiche nella Gestione dei Blocchi try-catch-finally](<02.4 Buone Pratiche nella Gestione dei Blocchi try-catch-finally.md>) 
+   - [02.5 Esempi pratici di gestione delle eccezioni](<02.5 Esempi pratici di gestione delle eccezioni.md>)
+   - [02.6 Quiz di autovalutazione](<02.6 Quiz di autovalutazione.md>)
+   - [02.7 Esercitazioni pratiche](<02.7 Esercitazioni pratiche.md>)
+   - [02.8 Try-With-Resources](<02.8 Try-With-Resources.md>)
 
-   - Esempi pratici di gestione delle eccezioni con risorse esterne (ad esempio, file o connessioni di rete).
 
 
-
-   - [01.3 Gerarchia delle Eccezioni e Personalizzazione](<01.3 Gerarchia delle Eccezioni e Personalizzazione.md>) 
-      - Gerarchia delle classi delle eccezioni: checked vs unchecked.
+   - [03.1 Gerarchia delle classi delle eccezioni](<03.1 Gerarchia delle classi delle eccezioni.md>) 
       - Creazione di eccezioni personalizzate: estendere la classe `Exception` o `RuntimeException`.
       - Quando usare eccezioni personalizzate.
       - Esempi di utilizzo pratico di eccezioni personalizzate in progetti reali.
@@ -42,6 +44,7 @@
       - Gestione di errori durante la lettura/scrittura di file.
       - Connessioni a database con gestione delle transazioni.
       - Implementare eccezioni personalizzate per un caso d'uso specifico.
+
 ### Modulo 2: Gestione avanzata delle eccezioni
 2.1 Gestione delle eccezioni multi-livello
    2.1.1 Lancio di eccezioni controllate
