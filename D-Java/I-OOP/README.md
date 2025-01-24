@@ -37,7 +37,7 @@
    - [04.4 Sovrascrittura dei Metodi (@Override)](<04.4 Sovrascrittura dei Metodi (@Override).md>) 
    - [04.5 Uso della Parola Chiave super](<04.5 Uso della Parola Chiave super.md>) 
    - [04.6 Ereditarietà Multipla (Tramite Interfacce)](<04.6 Ereditarietà Multipla (Tramite Interfacce)  .md>) 
-   - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Prsoblemi e Best Practice dell'Ereditarietà.md>) 
+   - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Problemi e Best Practice dell'Ereditarietà.md>) 
    - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
    - [04.9 La classe Object](<04.9 La classe Object.md>) 
    - [04.10 Quiz di autovalutazione](<04.10 Quiz di autovalutazione.md>)  
