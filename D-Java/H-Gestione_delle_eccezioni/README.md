@@ -24,34 +24,25 @@
 
 3. **Gerarchia delle classi delle eccezioni**
    - [03.1 Gerarchia delle classi delle eccezioni](<03.1 Gerarchia delle classi delle eccezioni.md>) 
-   - Creazione di eccezioni personalizzate: estendere la classe `Exception` o `RuntimeException`.
-   - Quando usare eccezioni personalizzate.
-   - Esempi di utilizzo pratico di eccezioni personalizzate in progetti reali.
+   - [03.2 Creazione di eccezioni personalizzate](<03.2 Creazione di eccezioni personalizzate.md>)
+   - [03.3 Quando usare eccezioni personalizzate](<03.3 Quando usare eccezioni personalizzate.md>)
+   - [03.4 Esempi di eccezioni personalizzate](<03.4 Esempi di eccezioni personalizzate.md>)
 
 4. **Lanciare e Propagare Eccezioni**
-   - [01.4 Lanciare e Propagare Eccezioni](<01.4 Lanciare e Propagare Eccezioni.md>) 
-   - Utilizzo della parola chiave `throw` per lanciare eccezioni.
-   - La parola chiave `throws` e la propagazione delle eccezioni.
-   - Gestione delle eccezioni nelle catene di chiamate a metodi.
-   - Esempi di propagazione in applicazioni multi-livello.
+   - [04.1 Lanciare Eccezioni con throw](<04.1 Lanciare Eccezioni con throw.md>)
+   - [04.2 Dichiarare Eccezioni con throws](<04.2 Dichiarare Eccezioni con throws.md>)
+   - [04.3 Propagazione delle Eccezioni](<04.3 Propagazione delle Eccezioni.md>)
+   - [04.4 Gestione delle eccezioni nelle catene di chiamate a metodi](<04.4 Gestione delle eccezioni nelle catene di chiamate a metodi.md>)
+   - [04.5 Esempi di propagazione in applicazioni multi-livello](<04.5 Esempi di propagazione in applicazioni multi-livello.md>)
 
 5. **Gestione Avanzata delle Eccezioni**
-   - [01.5 Gestione Avanzata delle Eccezioni](<01.5 Gestione Avanzata delle Eccezioni.md>) 
-   - Best practice per la gestione delle eccezioni (ad esempio, evitare eccezioni generiche).
-   - Uso delle risorse con il blocco `try-with-resources`.
-   - Differenza tra gestione preventiva e gestione correttiva.
-   - Logging e tracciamento delle eccezioni in applicazioni di grandi dimensioni.
-   - Gestione delle eccezioni multi-livello: Lancio di eccezioni controllate; Gestione delle eccezioni a più livelli
-   - [02.8 Risorsa Automatica di Chiusura (try-with-resources)](<05.8 Risorsa Automatica di Chiusura (try-with-resources).md>)
-
-6. **Esercitazioni Pratiche**
-   - [01.6 Esercitazioni Pratiche](<01.6 Esercitazioni Pratiche.md>) 
-   - Risolvere problemi comuni usando eccezioni.
-   - Progettare un'applicazione robusta che include:
-      - Validazione dell'input utente.
-      - Gestione di errori durante la lettura/scrittura di file.
-      - Connessioni a database con gestione delle transazioni.
-   - Implementare eccezioni personalizzate per un caso d'uso specifico.
+   - [05.1 Differenza tra gestione preventiva e gestione correttiva](<05.1 Differenza tra gestione preventiva e gestione correttiva.md>)
+   - [05.2 Logging e tracciamento delle eccezioni](<05.2 Logging e tracciamento delle eccezioni.md>)
+   - [05.3 Gestione delle eccezioni multi-livello](<05.3 Gestione delle eccezioni multi-livello.md>)
+   - [05.4 Eccezioni ed ereditarità](<05.4 Eccezioni ed ereditarità.md>)
+   - [05.5 Risorsa Automatica di Chiusura (try-with-resources)](<05.5 Risorsa Automatica di Chiusura (try-with-resources).md>)
+   - [05.6 Asserzioni](<05.6 Asserzioni.md>)
+   - [05.7 Progetto di una applicazione robusta](<05.7 Progetto di una applicazione robusta.md>)
 
 --- 
 [INDICE](../README.md) 
