@@ -1,7 +1,6 @@
 ## H - Gestione delle eccezioni
 ### Esercitazioni
-### Esercitazioni
-- [ES01](<>)
+- [ES10 - Gestione delle eccezioni ](<https://docs.google.com/presentation/d/1VG0ioomDBXf1dQTJbjgxGzhyivrctF9UMGtnKKl6dwo>)
 
 ### Teoria
 1. **Introduzione**
