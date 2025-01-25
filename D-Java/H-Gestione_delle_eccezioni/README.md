@@ -7,7 +7,7 @@
 1. **Introduzione**
    - [01.1 Introduzione alla Gestione delle Eccezioni](<01.1 Introduzione alla Gestione delle Eccezioni.md>)
    - [01.2 Differenze tra Errori ed Eccezioni](<01.2 Differenze tra Errori ed Eccezioni.md>)
-   - [01.3 Esempi di eccezioni comuni in Java](<01.3 Esempi di eccezioni comuni in Java.md>)
+   - [01.3 Esempi di Eccezioni Comuni in Java](<01.3 Esempi di Eccezioni Comuni in Java.md>)
    - [01.4 Meccanismo di gestione delle eccezioni da parte della JVM](<01.4 Meccanismo di gestione delle eccezioni da parte della JVM.md>)
 
 2. **I Blocchi try, catch, finally**
