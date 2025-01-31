@@ -40,7 +40,8 @@
    - [04.7 Problemi e Best Practice dell'Ereditarietà](<04.7 Problemi e Best Practice dell'Ereditarietà.md>) 
    - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
    - [04.9 La classe Object](<04.9 La classe Object.md>) 
-   - [04.10 Quiz di autovalutazione](<04.10 Quiz di autovalutazione.md>)  
+   - [04.10 Quiz di autovalutazione](<04.10 Quiz di autovalutazione.md>) 
+   - [04.11 Esercizio Forme](<04.11 Esercizio Forme.md>) 
 
 ### 5. **Polimorfismo e Classi Astratte**
    - [05.1 Concetti Fondamentali del Polimorfismo](<05.1 Concetti Fondamentali del Polimorfismo.md>)
