@@ -18,13 +18,12 @@
       - [01.5.1 Introduzione agli stream di caratteri](<01.5.1 Introduzione agli stream di caratteri.md>)
       - [01.5.2 Utilizzo di BufferedReader e InputStreamReader](<01.5.2 Utilizzo di BufferedReader e InputStreamReader.md>)
       - [01.5.3 Uso della classe Scanner](<01.5.3 Uso della classe Scanner.md>)
+      - [01.5.4 Utilizzo di PrintWriter per scrivere output formattato](<01.5.4 Utilizzo di PrintWriter per scrivere output formattato.md>)
    - [01.6 Lettura e Scrittura da File](<01.6 Lettura e Scrittura da Files.md>)
       - [01.6.1 Lettura da file con FileReader e BufferedReader](<01.6.1 Lettura da file con FileReader e BufferedReader.md>)
       - [01.6.2 Scrittura su file con FileWriter e BufferedWriter](<01.6.2 Scrittura su file con FileWriter e BufferedWriter.md>)
-      - 01.6.3 Esempi di codice per leggere e scrivere file
+      - [01.6.3 Esempi di codice per leggere e scrivere file](<01.6.3 Esempi di codice per leggere e scrivere file.md>)
    - [01.7 Input_Output Formattato](<01.7 Input_Output Formattato.md>)
-      - 7.1 Utilizzo di `Scanner` per leggere input formattato
-      - 7.2 Utilizzo di `PrintWriter` per scrivere output formattato
    - [01.8 Serializzazione degli Oggetti](<01.8 Serializzazione degli Oggetti.md>)
       - 8.1 Serializzazione e deserializzazione di oggetti
       - 8.2 Serializzazione di classi personalizzate con `Serializable`
@@ -36,9 +35,9 @@
       - 10.1 Serializzazione di vettori
       - 10.2 Serializzazione di oggetti complessi come `Rettangolo`
       - 10.3 Deserializzazione di oggetti da file
-      - [10.4 Creazione di un semplice editor di file](<01.10.4 Creazione di un semplice editor di file.md>)
-      - [10.5 Implementazione di un sistema di log basato su file](<01.10.5 Implementazione di un sistema di log basato su file.md>)
-      - [10.6 Serializzazione di un grafico di oggetti complessi](<01.10.6 Serializzazione di un grafico di oggetti complessi.md>)
+      - [01.10.4 Creazione di un semplice editor di file](<01.10.4 Creazione di un semplice editor di file.md>)
+      - [01.10.5 Implementazione di un sistema di log basato su file](<01.10.5 Implementazione di un sistema di log basato su file.md>)
+      - [01.10.6 Serializzazione di un grafico di oggetti complessi](<01.10.6 Serializzazione di un grafico di oggetti complessi.md>)
    - [01.11 Esercitazioni pratiche](<01.11 Esercitazioni pratiche.md>)
    
 
