@@ -3,6 +3,7 @@
 - [ES03 - Classi e oggetti](<https://docs.google.com/presentation/d/1vUPCNzBxI0KDFnFaV9lN7RT-1Y1f0pnT5YgmK6cvR58>)
 - [ES07 - Incapsulamento](<https://docs.google.com/presentation/d/1WpWviW5Mo3KGb9ilb_oSye03B339imlmYbw6cvbuwBw>)
 - [ES08 - Eridatarietà](<https://docs.google.com/presentation/d/1NVfkSnLjKX5AB_IxwsuuKdn-xbEa-2s0JDpjj9B5UqU>)
+- [ES08 - Eridatarietà](<https://docs.google.com/presentation/d/1NVfkSnLjKX5AB_IxwsuuKdn-xbEa-2s0JDpjj9B5UqU>)
 
 ### Teoria
 ### 1. **Introduzione alla Programmazione Orientata agli Oggetti (OOP)**
@@ -43,14 +44,19 @@
    - [04.10 Quiz di autovalutazione](<04.10 Quiz di autovalutazione.md>) 
    - [04.11 Esercizio Forme](<04.11 Esercizio Forme.md>) 
 
-### 5. **Polimorfismo e Classi Astratte**
+### 5. **Polimorfismo, classi Astratte e interfacce**
    - [05.1 Concetti Fondamentali del Polimorfismo](<05.1 Concetti Fondamentali del Polimorfismo.md>)
-   - [05.2 Classi Astratte_ Definizione e Utilizzo](<05.2 Classi Astratte_ Definizione e Utilizzo.md>)
+   - [05.2 Classi Astratte, definizione e utilizzo](<05.2 Classi Astratte, definizione e utilizzo.md>)
    - [05.3 Sovrascrittura dei Metodi (@Override)](<05.3 Sovrascrittura dei Metodi (@Override).md>)
-   - [05.4 Implementazione del Polimorfismo con Classi Astratte](<05.4 Implementazione del Polimorfismo con Classi Astratte.md>)
-   - [05.5 Classi Astratte e Interfacce_ Un Confronto](<05.5 Classi Astratte e Interfacce_ Un Confronto.md>)
+   - [05.4 Interfacce e Polimorfismo](<05.4 Interfacce e Polimorfismo.md>)
+   - [05.5 Classi astratte e interfacce, un confronto](<05.5 Classi Astratte e Interfacce_ Un Confronto.md>)
    - [05.6 Esercitazioni pratiche](<05.6 Esercitazioni pratiche.md>)
    - [05.7 Quiz di autovalutazione](<05.7 Quiz di autovalutazione.md>)  
+   - [05.8 Uso del Polimorfismo con instanceof](<05.8 Uso del Polimorfismo con instanceof.md>)
+   - Polimorfismo e Gerarchie di Classi
+   - Polimorfismo nei Design Pattern  
+   - Limitazioni e Best Practices
+   - Errori Comuni da Evitare  
 
 --- 
 [INDICE](../README.md) 

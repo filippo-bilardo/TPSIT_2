@@ -1,158 +1,114 @@
 ## **Parte I: Fondamenti dei Thread in Java**
-
-- [01.1 Che cos'è un Thread](<01.1 Che cos'è un Thread.md>)
-- [01.2 Creazione di Thread in Java implementando l'interfaccia Runnable](<01.2 Creazione di Thread in Java implementando l'interfaccia Runnable.md>)
-- [01.3 Creazione di Thread in Java Estendendo la classe Thread](<01.3 Creazione di Thread in Java Estendendo la classe Thread.md>)
-- 01.4 Esempi pratici
-- 01.5 Best practice per la creazione di thread
+1. **Introduzione**
+   - [01.1 Multi-threading e programmazione concorrente](<01.1 Multi-threading e programmazione concorrente.md>)
+   - [01.1 Che cos'è un Thread](<01.1 Che cos'è un Thread.md>)
+   - [01.2 Creazione di Thread in Java implementando l'interfaccia Runnable](<01.2 Creazione di Thread in Java implementando l'interfaccia Runnable.md>)
+   - [01.3 Creazione di Thread in Java Estendendo la classe Thread](<01.3 Creazione di Thread in Java Estendendo la classe Thread.md>)
+   - [1.4 Differenze tra Runnable e Thread](<1.4 Differenze tra Runnable e Thread.md>)  
+   - Esempi pratici
+   - Best practice per la creazione di thread
+   - Vantaggi e sfide del multi-threading
 
 2. **Stati di un Thread**
-   - Ciclo di vita di un thread
-   - Stati: New, Runnable, Blocked, Waiting, Timed Waiting, Terminated
-   - Diagramma degli stati
-   - Gestione dello stato di un thread
+   - [02.1 Ciclo di vita di un thread](<02.1 Ciclo di vita di un thread.md>)
+   - 02.2 Avvio, pausa e terminazione dei thread  
+
+   - 3.1 `start()`, `run()` e `join()`  
+   - 3.2 `sleep()`, `yield()` e `interrupt()`  
+   - 3.3 Sincronizzazione e `wait()`, `notify()`, `notifyAll()`  
+
 
 3. **Metodi principali della classe Thread**
    - `start()`, `run()`, `join()`, `sleep()`, `interrupt()`, ecc.
    - Spiegazione dettagliata di ogni metodo
    - Esempi di codice
-
 4. **Gestione delle Priorità**
    - Livelli di priorità dei thread
    - Metodo `setPriority()` e `getPriority()`
    - Limitazioni delle priorità nei sistemi operativi
-
 ---
-
 ## **Parte II: Sincronizzazione e Concorrenza**
-
 8. **Problemi di Concorrenza**
    - Condizioni di gara (race conditions)
    - Deadlock e livello
    - Starvation e livello
    - Spiegazione con esempi reali
-
 9. **Sincronizzazione in Java**
    - Blocco sincronizzato (`synchronized`)
    - Mutex implicito
    - Keyword `volatile`
    - Esempi di sincronizzazione corretta
-
 10. **Lock e Monitor**
     - Introduzione alle lock
     - Classe `ReentrantLock`
     - Confronto tra `synchronized` e `ReentrantLock`
     - Tip and tricks per l'utilizzo delle lock
-
 11. **Comunicazione tra Thread**
     - Metodi `wait()`, `notify()` e `notifyAll()`
     - Produttore-Consumatore: un caso d'uso classico
     - Pattern di design per la comunicazione tra thread
-
 ---
-
 ## **Parte III: Strumenti Avanzati**
-
 12. **Executor Framework**
     - Introduzione al framework `Executor`
     - Classi `ExecutorService`, `ThreadPoolExecutor`, `ScheduledExecutorService`
     - Creazione e gestione di pool di thread
     - Esempi pratici
-
 13. **Concurrent Collections**
     - Panoramica delle collezioni thread-safe
     - `ConcurrentHashMap`, `CopyOnWriteArrayList`, `BlockingQueue`, ecc.
     - Quando utilizzare le collezioni concurrent
     - Esempi di codice
-
 14. **Atomic Variables**
     - Introduzione alle variabili atomiche
     - Classi come `AtomicInteger`, `AtomicLong`, `AtomicReference`, ecc.
     - Vantaggi rispetto alla sincronizzazione tradizionale
     - Caso d'uso con esempi
-
 15. **Fork/Join Framework**
     - Concetto di divide-et-impera
     - Classe `ForkJoinPool`
     - Esempi di parallelizzazione con Fork/Join
     - Miglioramenti introdotti in Java 8+
-
 ---
-
 ## **Parte IV: Ottimizzazione e Debugging**
-
 16. **Ottimizzazione delle Performance**
     - Tecniche per migliorare le prestazioni dei thread
     - Analisi del carico di lavoro
     - Riduzione dell'overhead di contest switching
-
 17. **Debugging e Testing dei Thread**
     - Strumenti per il debugging di applicazioni multithread
     - JConsole, VisualVM, Thread Dumps
     - Test di concorrenza con JUnit
     - Best practice per il testing multithread
-
 18. **Analisi delle Prestazioni**
     - Profiling delle applicazioni multithread
     - Identificazione dei bottleneck
     - Utilizzo di strumenti come YourKit, JProfiler, ecc.
-
 ---
-
 ## **Parte V: Caso d'Uso e Progetti Practici**
-
 19. **Progetti Practici**
     - Applicazione web multithread
     - Elaborazione di file in parallelo
     - Simulazione di un sistema distribuito
     - Altri esempi avanzati
-
 20. **Pattern di Design Multithread**
     - Singleton thread-safe
     - Double-checked locking
     - Reader-writer lock
     - Produttore-consumatore avanzato
-
 ---
-
 ## **Appendici**
-
 A. **Riferimenti Ufficiali**
    - API Java per thread e concorrenza
    - Link utili alla documentazione ufficiale
-
 B. **Strumenti Utili**
    - IDE consigliati per lo sviluppo Java
    - Debugger e profiler popolari
-
-C. **Glossario**
-   - Terminologia chiave sulla concorrenza e i thread
-
-D. **Soluzioni degli Esercizi**
-   - Risposte dettagliate agli esercizi proposti nel libro
-
  
 --- 
 [INDICE](../README.md) 
 
 ---
-Ecco una proposta per l'indice del libro **"Guida completa ai Thread Java"**:  
-
-### **1. Introduzione ai Thread**  
-- 1.1 Cos'è un Thread  
-- 1.2 Multi-threading e programmazione concorrente  
-- 1.3 Vantaggi e sfide del multi-threading  
-
-### **2. Creazione e Gestione dei Thread**  
-- 2.1 Implementazione con l'interfaccia `Runnable`  
-- 2.2 Estensione della classe `Thread`  
-- 2.3 Differenze tra `Runnable` e `Thread`  
-- 2.4 Avvio, pausa e terminazione dei thread  
-
-### **3. Metodi Fondamentali per i Thread**  
-- 3.1 `start()`, `run()` e `join()`  
-- 3.2 `sleep()`, `yield()` e `interrupt()`  
-- 3.3 Sincronizzazione e `wait()`, `notify()`, `notifyAll()`  
 
 ### **4. Sincronizzazione e Concorrenza**  
 - 4.1 Problemi di accesso concorrente  
@@ -196,17 +152,6 @@ Ecco una proposta per l'indice del libro **"Guida completa ai Thread Java"**:
 - 11.3 Errori comuni nella gestione dei thread  
 
 ---
-
-Ecco un possibile indice dettagliato per il tuo libro **"Guida completa ai Thread Java"**, strutturato per coprire sia le basi che gli argomenti avanzati, con un approccio pratico e orientato alle best practice:
-
----
-
-### **Indice**  
-**Prefazione**  
-- Obiettivi del libro  
-- A chi è rivolto  
-- Struttura del libro  
-
 ---
 
 ### **Parte I: Fondamenti dei Thread e della Concorrenza**  
@@ -233,8 +178,6 @@ Ecco un possibile indice dettagliato per il tuo libro **"Guida completa ai Threa
    - 3.5 Deadlock, Livelock e Starvation  
    - *Esempio: Gestione di un conto bancario concorrente*  
 
----
-
 ### **Parte II: Strumenti Avanzati per la Concorrenza**  
 4. **Java Concurrency API**  
    - 4.1 Executor Framework: `Executor`, `ExecutorService`  
@@ -255,8 +198,6 @@ Ecco un possibile indice dettagliato per il tuo libro **"Guida completa ai Threa
    - 6.2 Compare-and-Swap (CAS)  
    - 6.3 Introduzione agli algoritmi lock-free  
    - *Esempio: Implementare un contatore thread-safe con `AtomicInteger`*  
-
----
 
 ### **Parte III: Ottimizzazione e Pattern Avanzati**  
 7. **Java Memory Model (JMM)**  
@@ -284,8 +225,6 @@ Ecco un possibile indice dettagliato per il tuo libro **"Guida completa ai Threa
     - 10.3 Divide et Impera per task paralleli  
     - *Esercizio: Calcolo parallelo della sequenza di Fibonacci*  
 
----
-
 ### **Parte IV: Strumenti e Tecniche Pratiche**  
 11. **Debugging e Testing di Codice Concorrente**  
     - 11.1 Strumenti di debugging (VisualVM, Thread Dump)  
@@ -303,8 +242,6 @@ Ecco un possibile indice dettagliato per il tuo libro **"Guida completa ai Threa
     - 13.2 Concorrenza in applicazioni web (Servlet, REST)  
     - 13.3 Multithreading con database (JDBC, Hibernate)  
 
----
-
 ### **Parte V: Casi di Studio ed Esercizi Complessi**  
 14. **Case Study Reali**  
     - 14.1 Costruire un Web Server multithread  
@@ -315,20 +252,3 @@ Ecco un possibile indice dettagliato per il tuo libro **"Guida completa ai Threa
     - 15.1 Simulare un parcheggio con semafori  
     - 15.2 Implementare un cache thread-safe  
     - 15.3 Risolvere un deadlock in uno scenario complesso  
-
----
-
-### **Appendici**  
-- **A. Glossario dei Termini**  
-- **B. Strumenti e Librerie Consigliate**  
-- **C. Risorse Online e Comunità**  
-- **D. Soluzioni agli Esercizi**  
-
----
-
-### **Caratteristiche Principali del Libro**  
-- **Box "Tips & Tricks"**: Suggerimenti per evitare errori comuni.  
-- **Box "Attenzione!"**: Highlight su rischi e anti-pattern.  
-- **Icone Grafiche**: Esempi, esercizi, best practice.  
-- **Approccio Pratico**: Codice completo e spiegato riga per riga.  
-
