@@ -3,7 +3,7 @@
 - [ES03 - Classi e oggetti](<https://docs.google.com/presentation/d/1vUPCNzBxI0KDFnFaV9lN7RT-1Y1f0pnT5YgmK6cvR58>)
 - [ES07 - Incapsulamento](<https://docs.google.com/presentation/d/1WpWviW5Mo3KGb9ilb_oSye03B339imlmYbw6cvbuwBw>)
 - [ES08 - Eridatarietà](<https://docs.google.com/presentation/d/1NVfkSnLjKX5AB_IxwsuuKdn-xbEa-2s0JDpjj9B5UqU>)
-- [ES08 - Eridatarietà](<https://docs.google.com/presentation/d/1NVfkSnLjKX5AB_IxwsuuKdn-xbEa-2s0JDpjj9B5UqU>)
+- [ES09 - Polimorfismo, classi Astratte e interfacce](<https://docs.google.com/presentation/d/1PnPOFB2Pua6V3myVAikuppmK1CdTc8NHSKaAjpElWlc>)
 
 ### Teoria
 ### 1. **Introduzione alla Programmazione Orientata agli Oggetti (OOP)**
@@ -43,7 +43,6 @@
    - [04.8 Esercitazioni Pratiche](<04.8 Esercitazioni Pratiche.md>)  
    - [04.9 La classe Object](<04.9 La classe Object.md>) 
    - [04.10 Quiz di autovalutazione](<04.10 Quiz di autovalutazione.md>) 
-   - [04.11 Esercizio Forme](<04.11 Esercizio Forme.md>) 
 
 ### 5. **Polimorfismo, classi Astratte e interfacce**
    - [05.1 Concetti Fondamentali del Polimorfismo](<05.1 Concetti Fondamentali del Polimorfismo.md>)
