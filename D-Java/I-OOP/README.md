@@ -54,10 +54,6 @@
    - [05.6 Esercitazioni pratiche](<05.6 Esercitazioni pratiche.md>)
    - [05.7 Quiz di autovalutazione](<05.7 Quiz di autovalutazione.md>)  
    - [05.8 Uso del Polimorfismo con instanceof](<05.8 Uso del Polimorfismo con instanceof.md>)
-   - Polimorfismo e Gerarchie di Classi
-   - Polimorfismo nei Design Pattern  
-   - Limitazioni e Best Practices
-   - Errori Comuni da Evitare  
 
 --- 
 [INDICE](../README.md) 
