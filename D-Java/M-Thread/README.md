@@ -1,20 +1,21 @@
 ## **Parte I: Fondamenti dei Thread in Java**
 1. **Introduzione**
-   - [01.1 Multi-threading e programmazione concorrente](<01.1 Multi-threading e programmazione concorrente.md>)
-   - [01.1 Che cos'è un Thread](<01.1 Che cos'è un Thread.md>)
-   - [01.2 Creazione di Thread in Java implementando l'interfaccia Runnable](<01.2 Creazione di Thread in Java implementando l'interfaccia Runnable.md>)
-   - [01.3 Creazione di Thread in Java Estendendo la classe Thread](<01.3 Creazione di Thread in Java Estendendo la classe Thread.md>)
-   - [1.4 Differenze tra Runnable e Thread](<1.4 Differenze tra Runnable e Thread.md>)  
+   - [01.01 Multi-threading e programmazione concorrente](<01.01 Multi-threading e programmazione concorrente.md>)
+   - [01.02 Creazione di Thread in Java implementando l'interfaccia Runnable](<01.02 Creazione di Thread in Java implementando l'interfaccia Runnable.md>)
+   - [01.03 Creazione di Thread in Java Estendendo la classe Thread](<01.03 Creazione di Thread in Java Estendendo la classe Thread.md>)
+   - [01.04 Differenze tra Runnable e Thread](<01.04 Differenze tra Runnable e Thread.md>)  
    - Esempi pratici
    - Best practice per la creazione di thread
    - Vantaggi e sfide del multi-threading
 
 2. **Stati di un Thread**
-   - [02.1 Ciclo di vita di un thread](<02.1 Ciclo di vita di un thread.md>)
-   - 02.2 Avvio, pausa e terminazione dei thread  
+   - [02.01 Ciclo di vita di un thread](<02.01 Ciclo di vita di un thread.md>)
+   - [02.02 Avvio pausa e terminazione dei thread](<02.02 Avvio pausa e terminazione dei thread.md>) 
+   - [02.03 Priorità e scheduling dei thread](<02.03 Priorità e scheduling dei thread.md>)
+   - [02.04 Gestione delle eccezioni nei thread](<02.04 Gestione delle eccezioni nei thread.md>)
+   - Esempi pratici
+   - Best practice per la gestione dei thread
 
-   - 3.1 `start()`, `run()` e `join()`  
-   - 3.2 `sleep()`, `yield()` e `interrupt()`  
    - 3.3 Sincronizzazione e `wait()`, `notify()`, `notifyAll()`  
 
 
