@@ -9,6 +9,7 @@ public class ES02_ThreadConParametri implements Runnable {
     
     @Override
     public void run() { 
+        System.out.println("Inizio " + Thread.currentThread().getName());
         for (int i = 0; i < ripetizioni; i++) {
             System.out.println(messaggio + " (" + (i+1) + "/" + ripetizioni + ")");
             try {
