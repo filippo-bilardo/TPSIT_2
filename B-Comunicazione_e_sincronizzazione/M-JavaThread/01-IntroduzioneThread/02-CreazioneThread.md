@@ -167,8 +167,9 @@ public class ThreadConParametri implements Runnable {
     }
     
     public static void main(String[] args) {
-        Thread t1 = new Thread(new ThreadConParametri("Primo thread", 5));
-        Thread t2 = new Thread(new ThreadConParametri("Secondo thread", 3));
+        ThreadConParametri runnable1 = new ThreadConParametri("Primo thread", 5);
+        Thread t1 = new Thread(runnable1, "Thread1");
+        Thread t2 = new Thread(new ThreadConParametri("Secondo thread", 3), "Thread2");
         
         t1.start();
         t2.start();
