@@ -2,7 +2,7 @@
  * Esempio che dimostra l'uso delle priorità dei thread in Java
  * e come queste possono influenzare lo scheduling dei thread
  */
-public class 03_PrioritaThread {
+public class ES03_PrioritaThread {
     public static void main(String[] args) throws InterruptedException {
         // Contatori per tracciare le iterazioni completate da ciascun thread
         Counter counterLow = new Counter();

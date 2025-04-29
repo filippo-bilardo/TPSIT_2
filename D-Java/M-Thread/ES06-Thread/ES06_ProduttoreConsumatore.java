@@ -4,7 +4,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class 06_ProduttoreConsumatore {
+public class ES06_ProduttoreConsumatore {
     public static void main(String[] args) {
         // Creiamo una coda condivisa tra produttore e consumatore
         Buffer<Integer> buffer = new Buffer<>(5); // buffer di capacità 5

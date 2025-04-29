@@ -1,14 +1,12 @@
-import java.lang.*;
-
-public class Es01_ThreadExists {
+class ES00_MainThread {
     public static void main(String args[]) {
-        // currentThread() della classe Thread. 
-        Thread t = Thread.currentThread(); 
+        // Per ottenere informazioni sul thread corrente, si utilizza il metodo
+        // currentThread() della classe Thread.
+        Thread t = Thread.currentThread();
         // Questo metodo restituisce l'indirizzo dell'oggetto Thread che 
         // sta eseguendo l'istruzione, che viene assegnato al reference t.
         t.setName("Thread principale");// gli assegno un nome
-        t.setPriority(10); // ne definisco una priorità rispetto ad altri
-        // thread
+        t.setPriority(10); // ne definisco una priorità rispetto ad altri thread
         System.out.println("Thread in esecuzione: " + t);// ne scrivo
         try { // le informazioni
             for (int n = 5; n > 0; n--) {

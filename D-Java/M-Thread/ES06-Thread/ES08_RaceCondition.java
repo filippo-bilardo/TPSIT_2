@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class 08_RaceCondition {
+public class ES08_RaceCondition {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Dimostrazione di race condition e relative soluzioni");
         

@@ -2,7 +2,7 @@
  * Esempio che dimostra il ciclo di vita di un thread in Java
  * e i vari stati attraverso cui passa: NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED
  */
-public class 02_CicloVitaThread {
+public class ES03_CicloDiVitaThread {
     public static void main(String[] args) throws InterruptedException {
         // Creiamo un oggetto condiviso per la sincronizzazione
         Object lock = new Object();

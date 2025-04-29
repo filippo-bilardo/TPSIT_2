@@ -5,7 +5,7 @@
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class 05_SincronizzazioneThread {
+public class ES05_SincronizzazioneThread {
     private int contatoreSenzaSincronizzazione = 0;
     private int contatoreConSincronizzazione = 0;
     private int contatoreConMetodoSincronizzato = 0;

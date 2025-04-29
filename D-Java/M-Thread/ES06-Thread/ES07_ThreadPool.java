@@ -4,7 +4,7 @@
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class 07_ThreadPool {
+public class ES07_ThreadPool {
     public static void main(String[] args) {
         System.out.println("Dimostrazione dei vari tipi di thread pool in Java");
         

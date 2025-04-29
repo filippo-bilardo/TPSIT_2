@@ -2,7 +2,7 @@
  * Esempio che dimostra come gestire le eccezioni nei thread in Java
  * usando l'UncaughtExceptionHandler
  */
-public class 04_GestioneEccezioni {
+public class ES04_GestioneEccezioni {
     public static void main(String[] args) {
         System.out.println("Dimostrazione di gestione delle eccezioni nei thread");
         
