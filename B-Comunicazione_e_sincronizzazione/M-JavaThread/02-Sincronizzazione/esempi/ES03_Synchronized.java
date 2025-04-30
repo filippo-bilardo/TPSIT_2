@@ -8,7 +8,7 @@
  * 2. Blocchi sincronizzati su this
  * 3. Blocchi sincronizzati su un oggetto lock dedicato
  */
-public class ES02_Synchronized {
+public class ES03_Synchronized {
     public static void main(String[] args) {
         System.out.println("Dimostrazione dell'uso di synchronized");
         System.out.println("=====================================");

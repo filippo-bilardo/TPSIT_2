@@ -24,7 +24,7 @@ class Worker implements Runnable {
     }
 }
 
-public class ContatoreExample {
+public class ES02_ContatoreExample {
     public static void main(String[] args) throws InterruptedException {
         Contatore contatore = new Contatore();
 
@@ -36,6 +36,10 @@ public class ContatoreExample {
         t2.start();
         t3.start();
 
+        // Attendi che tutti i thread abbiano finito
+        // prima di stampare il conteggio finale e terminare il programma
+        // Il metodo join() blocca il thread chiamante fino a quando il thread chiamato non ha terminato.
+        // In questo caso, il thread chiamante è il thread principale (main)
         t1.join();
         t2.join();
         t3.join();
