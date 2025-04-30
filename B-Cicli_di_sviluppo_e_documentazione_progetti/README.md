@@ -1,4 +1,4 @@
-# C - Cicli di sviluppo software e documentazione progetti
+# B - Cicli di sviluppo software e documentazione progetti
 
 ---
 ### Esercitazioni
