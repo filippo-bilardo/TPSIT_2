@@ -12,10 +12,9 @@ Questo modulo introduce i concetti fondamentali della programmazione multi-threa
    - Differenze tra concorrenza e parallelismo
 
 2. [Creazione di Thread in Java](02-CreazioneThread.md)
-   - Estendere la classe Thread
-   - Implementare l'interfaccia Runnable
-   - Confronto tra i due approcci
-   - Lambda expressions per thread (Java 8+)
+   - [Estendere la classe Thread](02a-EstenderelaClasseThread.md)
+   - [Implementare l'interfaccia Runnable](02b-ImplementareRunnable.md)
+   - [Lambda expressions per thread (Java 8+)](02c-ThreadLambda.md)
 
 3. [Ciclo di Vita di un Thread](03-CicloVita.md)
    - Stati di un thread (New, Runnable, Blocked, Waiting, Timed Waiting, Terminated)
@@ -24,18 +23,19 @@ Questo modulo introduce i concetti fondamentali della programmazione multi-threa
 
 ## Esercitazioni Pratiche
 
-1. **HelloThread**: Crea il tuo primo thread che stampa un messaggio.
-   - File: [HelloThread.java](esempi/HelloThread.java)
+Consulta l'[Indice degli Esempi](esempi/INDICE_ESEMPI.md) per una panoramica completa.
 
-2. **DueApprocci**: Confronta l'implementazione di thread usando l'estensione di Thread e l'interfaccia Runnable.
-   - File: [ThreadEreditarieta.java](esempi/ThreadEreditarieta.java)
-   - File: [ThreadRunnable.java](esempi/ThreadRunnable.java)
+1. **HelloThread**: Crea il tuo primo thread che stampa un messaggio.
+   - File: [ES01_CreazioneDiThread.java](esempi/ES01_CreazioneDiThread.java)
+
+2. **DueApprocci**: Confronta l'implementazione di thread usando l'estensione di Thread e l'interfaccia Runnable (vedi `ES01_CreazioneDiThread.java`).
+   - File: [ES01_CreazioneDiThread.java](esempi/ES01_CreazioneDiThread.java)
 
 3. **CicloVitaDemo**: Osserva e manipola il ciclo di vita di un thread.
-   - File: [CicloVitaDemo.java](esempi/CicloVitaDemo.java)
+   - File: [ES03_CicloVitaThread.java](esempi/ES03_CicloVitaThread.java)
 
 4. **PrioritaThread**: Sperimenta con le priorità dei thread.
-   - File: [PrioritaThread.java](esempi/PrioritaThread.java)
+   - File: [ES04_PrioritaThread.java](esempi/ES04_PrioritaThread.java)
 
 ## Sfide
 

@@ -56,18 +56,18 @@ public class MultiLambda {
 - **Implementare Runnable**: più flessibile, separa logica da esecuzione, ma più verboso rispetto alle lambda
 - **Lambda**: massimo della concisione, ideale per logiche semplici
 
-Per approfondire gli altri approcci, consulta:
-- [02a-EstenderelaClasseThread.md](./02a-EstenderelaClasseThread.md)
-- [02b-ImplementareRunnable.md](./02b-ImplementareRunnable.md)
-
 ### Best Practices
 1. Utilizza le lambda per thread semplici e temporanei
 2. Per logiche complesse o riutilizzabili, preferisci classi dedicate
 3. Ricorda che le lambda possono accedere solo a variabili final o effettivamente final del contesto esterno
 
----
+--- 
+
+Per approfondire gli altri approcci, consulta:
+- [02a-EstenderelaClasseThread.md](./02a-EstenderelaClasseThread.md)
+- [02b-ImplementareRunnable.md](./02b-ImplementareRunnable.md)
 
 ## Navigazione del Corso
 - [📑 Indice](../README.md)
-- [⬅️ Implementare Runnable](./02b-ImplementareRunnable.md)
+- [⬅️ Concetti Base dei Thread](./01-ConcettiBase.md)
 - [➡️ Ciclo di Vita di un Thread](./03-CicloVita.md)

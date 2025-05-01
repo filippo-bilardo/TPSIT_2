@@ -105,7 +105,14 @@ public class ThreadAnonimo {
 
 ---
 
+--- 
+
+Per approfondire gli altri approcci, consulta:
+- [02a-EstenderelaClasseThread.md](./02a-EstenderelaClasseThread.md)
+- [02c-ThreadLambda.md](./02c-ThreadLambda.md)
+
 ## Navigazione del Corso
 - [📑 Indice](../README.md)
-- [⬅️ Estendere la Classe Thread](./02a-EstenderelaClasseThread.md)
-- [➡️ Thread con Lambda Expressions](./02c-ThreadLambda.md)
+- [⬅️ Concetti Base dei Thread](./01-ConcettiBase.md)
+- [➡️ Ciclo di Vita di un Thread](./03-CicloVita.md)
+

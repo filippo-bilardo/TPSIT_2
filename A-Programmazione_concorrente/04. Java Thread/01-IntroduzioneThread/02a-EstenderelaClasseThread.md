@@ -81,12 +81,13 @@ public class Main {
 - **Implementare Runnable**: Più flessibile, separa la logica dal thread, consigliato per la maggior parte dei casi.
 - **Lambda**: Massima concisione, ideale per logiche brevi e temporanee.
 
+--- 
+
 Per approfondire gli altri approcci, consulta:
 - [02b-ImplementareRunnable.md](./02b-ImplementareRunnable.md)
 - [02c-ThreadLambda.md](./02c-ThreadLambda.md)
 
----
-
 ## Navigazione del Corso
 - [📑 Indice](../README.md)
-- [➡️ Implementare Runnable](./02b-ImplementareRunnable.md)
+- [⬅️ Concetti Base dei Thread](./01-ConcettiBase.md)
+- [➡️ Ciclo di Vita di un Thread](./03-CicloVita.md)
