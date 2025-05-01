@@ -177,75 +177,13 @@ public static synchronized void metodoStatico() {
 
 ## Granularità del Lock
 
-La granularità del lock si riferisce alla quantità di dati protetti da un singolo lock. Possiamo distinguere tra:
+La granularità del lock si riferisce alla quantità di dati protetti da un singolo lock. Questo concetto è importante per bilanciare la protezione delle risorse condivise con le prestazioni dell'applicazione.
 
-### Lock a Grana Grossa (Coarse-grained)
+Esistono due approcci principali alla granularità dei lock:
+- **Lock a grana grossa**: un singolo lock protegge molti dati
+- **Lock a grana fine**: lock multipli proteggono porzioni più piccole di dati
 
-Un singolo lock protegge una grande quantità di dati o operazioni. Ad esempio, sincronizzare un intero metodo.
-
-**Vantaggi**:
-- Semplice da implementare
-- Meno rischio di deadlock
-
-**Svantaggi**:
-- Minore concorrenza
-- Potenziali colli di bottiglia
-
-### Lock a Grana Fine (Fine-grained)
-
-Utilizzo di lock multipli, ciascuno che protegge una piccola quantità di dati. Ad esempio, sincronizzare solo specifiche operazioni critiche.
-
-**Vantaggi**:
-- Maggiore concorrenza
-- Migliori prestazioni in scenari ad alto carico
-
-**Svantaggi**:
-- Più complesso da implementare correttamente
-- Maggiore rischio di deadlock
-
-### Esempio di Lock a Grana Fine
-
-```java
-public class Inventario {
-    private final Map<String, Integer> prodotti = new HashMap<>();
-    private final Object lockLettura = new Object();
-    private final Object lockScrittura = new Object();
-    
-    public void aggiungiProdotto(String nome, int quantita) {
-        synchronized (lockScrittura) {
-            prodotti.put(nome, prodotti.getOrDefault(nome, 0) + quantita);
-        }
-    }
-    
-    public boolean rimuoviProdotto(String nome, int quantita) {
-        synchronized (lockScrittura) {
-            int disponibile = prodotti.getOrDefault(nome, 0);
-            if (disponibile >= quantita) {
-                prodotti.put(nome, disponibile - quantita);
-                return true;
-            }
-            return false;
-        }
-    }
-    
-    public int getQuantita(String nome) {
-        synchronized (lockLettura) {
-            return prodotti.getOrDefault(nome, 0);
-        }
-    }
-    
-    public List<String> getProdottiDisponibili() {
-        synchronized (lockLettura) {
-            return prodotti.entrySet().stream()
-                .filter(entry -> entry.getValue() > 0)
-                .map(Map.Entry::getKey)
-                .collect(Collectors.toList());
-        }
-    }
-}
-```
-
-In questo esempio, utilizziamo due lock diversi: uno per le operazioni di lettura e uno per le operazioni di scrittura. Questo permette a più thread di leggere contemporaneamente, aumentando la concorrenza.
+Questo argomento sarà approfondito nel prossimo capitolo sui Lock e Oggetti di Sincronizzazione, dove esploreremo implementazioni più avanzate e strategie per ottimizzare la concorrenza.
 
 ## Considerazioni sulle Prestazioni
 
@@ -343,7 +281,9 @@ In questo esempio, utilizziamo il pattern "Double-Checked Locking" per ridurre l
 
 ## Conclusione
 
-La keyword `synchronized` è uno strumento potente per gestire la concorrenza in Java. Comprendere come funziona e come utilizzarla correttamente è essenziale per scrivere applicazioni multi-thread robuste. Nel prossimo capitolo, esploreremo ulteriormente i lock e gli oggetti di sincronizzazione in Java.
+La keyword `synchronized` è uno strumento fondamentale per gestire la concorrenza in Java, ma presenta alcune limitazioni. Comprendere come funziona e come utilizzarla correttamente è essenziale per scrivere applicazioni multi-thread robuste. 
+
+Nel prossimo capitolo, esploreremo i lock espliciti e gli oggetti di sincronizzazione avanzati offerti dal framework `java.util.concurrent.locks`, che forniscono maggiore flessibilità e funzionalità aggiuntive per gestire scenari di concorrenza complessi.
 
 ## Navigazione del Corso
 - [📑 Indice](../README.md)

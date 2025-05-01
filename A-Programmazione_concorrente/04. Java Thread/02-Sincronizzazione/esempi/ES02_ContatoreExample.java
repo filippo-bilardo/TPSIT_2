@@ -1,3 +1,27 @@
+/**
+ * Esempio 02: Contatore
+ * 
+ * In questo esempio, abbiamo una classe Contatore che mantiene un conteggio
+ * intero e fornisce metodi per incrementarlo e recuperare il valore corrente.
+ *
+ * La classe Contatore è sincronizzata, quindi può essere utilizzata da più
+ * thread in modo sicuro.
+ *
+ * La classe Worker implementa l'interfaccia Runnable e rappresenta un thread
+ * che incrementa il conteggio del contatore.
+ *
+ * Nel metodo main, creiamo tre thread che condividono lo stesso oggetto Contatore
+ * e li avviamo. Ogni thread incrementa il conteggio del contatore 1000 volte.
+ *
+ * Dopo aver avviato i thread, attendiamo che tutti abbiano terminato utilizzando
+ * il metodo join() per ciascun thread.
+ *
+ * Infine, stampiamo il conteggio finale ottenuto dal contatore.
+ *
+ * Il risultato finale dovrebbe essere 3000, poiché ciascun thread ha incrementato
+ * il conteggio del contatore 1000 volte.
+ *
+ */
 class Contatore {
     private int conteggio = 0;
 

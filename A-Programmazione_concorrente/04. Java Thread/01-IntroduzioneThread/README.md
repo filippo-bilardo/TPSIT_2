@@ -6,18 +6,18 @@ Questo modulo introduce i concetti fondamentali della programmazione multi-threa
 
 ## Indice degli Argomenti Teorici
 
-1. [Concetti Base dei Thread](./01-ConcettiBase.md)
+1. [Concetti Base dei Thread](01-ConcettiBase.md)
    - Definizione di thread e processo
    - Vantaggi della programmazione multi-thread
    - Differenze tra concorrenza e parallelismo
 
-2. [Creazione di Thread in Java](./02-CreazioneThread.md)
+2. [Creazione di Thread in Java](02-CreazioneThread.md)
    - Estendere la classe Thread
    - Implementare l'interfaccia Runnable
    - Confronto tra i due approcci
    - Lambda expressions per thread (Java 8+)
 
-3. [Ciclo di Vita di un Thread](./03-CicloVita.md)
+3. [Ciclo di Vita di un Thread](03-CicloVita.md)
    - Stati di un thread (New, Runnable, Blocked, Waiting, Timed Waiting, Terminated)
    - Metodi per controllare il ciclo di vita (start, sleep, join, yield)
    - Priorità dei thread
@@ -25,17 +25,17 @@ Questo modulo introduce i concetti fondamentali della programmazione multi-threa
 ## Esercitazioni Pratiche
 
 1. **HelloThread**: Crea il tuo primo thread che stampa un messaggio.
-   - File: [HelloThread.java](./esempi/HelloThread.java)
+   - File: [HelloThread.java](esempi/HelloThread.java)
 
 2. **DueApprocci**: Confronta l'implementazione di thread usando l'estensione di Thread e l'interfaccia Runnable.
-   - File: [ThreadEreditarieta.java](./esempi/ThreadEreditarieta.java)
-   - File: [ThreadRunnable.java](./esempi/ThreadRunnable.java)
+   - File: [ThreadEreditarieta.java](esempi/ThreadEreditarieta.java)
+   - File: [ThreadRunnable.java](esempi/ThreadRunnable.java)
 
 3. **CicloVitaDemo**: Osserva e manipola il ciclo di vita di un thread.
-   - File: [CicloVitaDemo.java](./esempi/CicloVitaDemo.java)
+   - File: [CicloVitaDemo.java](esempi/CicloVitaDemo.java)
 
 4. **PrioritaThread**: Sperimenta con le priorità dei thread.
-   - File: [PrioritaThread.java](./esempi/PrioritaThread.java)
+   - File: [PrioritaThread.java](esempi/PrioritaThread.java)
 
 ## Sfide
 
