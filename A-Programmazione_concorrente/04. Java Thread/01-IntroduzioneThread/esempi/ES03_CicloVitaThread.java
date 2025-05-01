@@ -9,7 +9,7 @@
  * - TIMED_WAITING: thread in attesa per un tempo specificato
  * - TERMINATED: thread che ha completato l'esecuzione
  */
-public class ES03_CicloVitaThread {
+public class ES03_CicloVitaThread { 
     public static void main(String[] args) {
         System.out.println("Dimostrazione del ciclo di vita dei thread");
         System.out.println("=========================================");
@@ -90,3 +90,32 @@ public class ES03_CicloVitaThread {
         System.out.println("monitor lock già detenuto da un altro thread.");
     }
 }
+/**
+ * Esempio di Output:
+
+    Dimostrazione del ciclo di vita dei thread
+    =========================================
+
+    1. Stato NEW - Thread creato ma non avviato
+    Thread è in stato: NEW
+
+    2. Avvio del thread - passa a RUNNABLE
+    Thread è in stato: RUNNABLE
+    Thread sta eseguendo un'operazione...
+
+    Thread sta per entrare in stato WAITING...
+
+    3. Thread in attesa temporizzata (TIMED_WAITING)
+    Thread è in stato: TIMED_WAITING
+
+    4. Risveglio del thread
+    Thread è stato risvegliato!
+    Thread sta completando...
+
+    5. Stato TERMINATED - Thread ha completato l'esecuzione
+    Thread è in stato: TERMINATED
+
+    Nota: Lo stato BLOCKED non è stato mostrato in questo esempio.
+    Un thread entra in stato BLOCKED quando tenta di acquisire un
+    monitor lock già detenuto da un altro thread. 
+ */

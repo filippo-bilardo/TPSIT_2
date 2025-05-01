@@ -74,3 +74,20 @@ public class ES03_CicloDiVitaThread {
         System.out.println("Stato finale: " + lifeCycleThread.getState());
     }
 }
+/**
+    Output:
+
+    Stato di lifeCycleThread: NEW
+    Thread bloccante ha acquisito il lock
+    Stato dopo start(): RUNNABLE
+    Thread avviato
+    Lavoro in corso: 0
+    Lavoro in corso: 1
+    Stato durante sleep(): TIMED_WAITING
+    Lavoro in corso: 2
+    Thread in attesa
+    Stato mentre tenta di acquisire lock: TIMED_WAITING
+    Thread terminato
+    Stato finale: TERMINATED
+
+ */
