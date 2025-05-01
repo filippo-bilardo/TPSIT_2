@@ -1,6 +1,13 @@
-public class ES02_ThreadCreation implements Runnable {
+/**
+ * Esempio di creazione di un thread in Java
+ * 
+ * Questo programma mostra come creare un thread in Java utilizzando due
+ * approcci: estensione della classe Thread e implementazione dell'interfaccia
+ * Runnable.
+ */
+public class ES02c_ThreadCreation implements Runnable {
 
-    public ES02_ThreadCreation() {
+    public ES02c_ThreadCreation() {
 
         Thread ct = Thread.currentThread(); // Thread padre (main thread)
         ct.setName("Thread principale");
@@ -32,6 +39,6 @@ public class ES02_ThreadCreation implements Runnable {
     }
 
     public static void main(String args[]) {
-        new ES02_ThreadCreation();
+        new ES02c_ThreadCreation();
     }
 }

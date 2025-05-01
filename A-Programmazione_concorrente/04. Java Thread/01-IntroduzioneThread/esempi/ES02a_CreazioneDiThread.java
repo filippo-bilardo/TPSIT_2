@@ -4,7 +4,7 @@
  * 2. Estendendo la classe Thread
  * Inoltre, mostra come utilizzare le lambda expressions per creare thread in modo più conciso.
  */
-public class ES01_CreazioneDiThread {
+public class ES02a_CreazioneDiThread {
     public static void main(String[] args) {
         System.out.println("Thread principale: " + Thread.currentThread().getName());
         

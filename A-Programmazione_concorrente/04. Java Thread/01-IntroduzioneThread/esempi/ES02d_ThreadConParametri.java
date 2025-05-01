@@ -1,8 +1,13 @@
-public class ES02_ThreadConParametri implements Runnable {
+/**
+ * Esempio 02: Thread con parametri
+ *
+ * Questo esempio mostra come creare un thread che riceve parametri in ingresso.
+ */
+public class ES02d_ThreadConParametri implements Runnable {
     private String messaggio;
     private int ripetizioni;
     
-    public ES02_ThreadConParametri(String messaggio, int ripetizioni) {
+    public ES02d_ThreadConParametri(String messaggio, int ripetizioni) {
         this.messaggio = messaggio;
         this.ripetizioni = ripetizioni;
     }
@@ -22,9 +27,9 @@ public class ES02_ThreadConParametri implements Runnable {
     }
     
     public static void main(String[] args) {
-        ES02_ThreadConParametri runnable1 = new ES02_ThreadConParametri("Primo thread", 5);
+        ES02d_ThreadConParametri runnable1 = new ES02d_ThreadConParametri("Primo thread", 5);
         Thread t1 = new Thread(runnable1, "Thread1");
-        Thread t2 = new Thread(new ES02_ThreadConParametri("Secondo thread", 3), "Thread2");
+        Thread t2 = new Thread(new ES02d_ThreadConParametri("Secondo thread", 3), "Thread2");
         
         t1.start();
         t2.start();

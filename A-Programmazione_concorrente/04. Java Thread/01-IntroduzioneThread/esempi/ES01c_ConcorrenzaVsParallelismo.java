@@ -7,7 +7,7 @@
  * - Parallelismo: esecuzione simultanea di più attività (richiede hardware 
  *   multi-core)
  */
-public class ES01_ConcorrenzaVsParallelismo {
+public class ES01c_ConcorrenzaVsParallelismo {
     public static void main(String[] args) {
         System.out.println("Dimostrazione di Concorrenza vs Parallelismo");
         System.out.println("==========================================");

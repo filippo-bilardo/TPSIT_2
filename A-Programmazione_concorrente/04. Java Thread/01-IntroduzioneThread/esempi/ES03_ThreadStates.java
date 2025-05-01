@@ -156,3 +156,60 @@ public class ES03_ThreadStates {
         System.out.println("Dimostrazione degli stati di un thread completata.");
     }
 }
+/**
+ * Output:
+
+    Dimostrazione degli stati di un thread
+    ====================================
+
+    1. Stato NEW:
+    - Stato del thread 'DemoThread' dopo la creazione: NEW
+    (Il thread è stato creato ma non ancora avviato con start())
+
+    2. Stato RUNNABLE:
+    Avvio del thread...
+    Thread in esecuzione...
+    Thread (DemoThread) - Stato prima di sleep: RUNNABLE
+    - Stato del thread 'DemoThread' dopo start(): TIMED_WAITING
+    (Il thread è in esecuzione o pronto per essere eseguito)
+
+    3. Stato TIMED_WAITING:
+    - Stato del thread 'DemoThread' durante sleep(): TIMED_WAITING
+    (Il thread sta aspettando per un tempo definito)
+
+    Thread (DemoThread) - Stato dopo sleep: RUNNABLE
+    Thread (DemoThread) - Sta per terminare.
+    4. Stato BLOCKED:
+    Thread principale ('main') detiene blockLock.
+    Thread 'BloccanteThread' tenta di acquisire blockLock...
+    - Stato del thread 'BloccanteThread' mentre attende il lock: BLOCKED
+    (Il thread è BLOCKED perché il thread principale detiene blockLock)
+
+    Thread principale ('main') sta per rilasciare blockLock.
+    Thread 'BloccanteThread' ha acquisito blockLock.
+    Thread 'BloccanteThread' ha rilasciato blockLock.
+    Thread 'BloccanteThread' ha terminato. 
+    - Stato del thread 'BloccanteThread' dopo aver rilasciato blockLock: TERMINATED
+    (Il thread è TERMINATED perché ha completato la sua esecuzione)
+        
+    5. Stato WAITING:
+    Thread 'WaitingThread' entra in wait() su waitLock.
+    - Stato del thread 'WaitingThread' dopo aver chiamato wait(): WAITING
+    (Il thread è WAITING finché non viene chiamato notify()/notifyAll() su waitLock)
+
+    Thread Notificatore ('NotificatoreThread'): tenta di acquisire waitLock per notificare.
+    Thread Notificatore ('NotificatoreThread'): ha acquisito waitLock, sta per notificare.
+    Thread Notificatore ('NotificatoreThread'): ha notificato, rilascia waitLock.
+    Thread 'WaitingThread' risvegliato da wait().
+    Thread 'WaitingThread' ha terminato.
+    Thread Notificatore ('NotificatoreThread') ha terminato.
+    Thread 'WaitingThread' e 'NotificatoreThread' hanno terminato.
+
+    6. Stato TERMINATED:
+    - Stato del thread 'DemoThread' dopo il completamento: TERMINATED
+    (Il thread ha completato la sua esecuzione)
+
+    Dimostrazione degli stati di un thread completata.
+
+ * 
+ */

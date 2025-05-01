@@ -5,7 +5,7 @@
  * 1. Estendendo la classe Thread
  * 2. Implementando l'interfaccia Runnable
  */
-public class ES02_CreazioneThread {
+public class ES02b_CreazioneThread {
     public static void main(String[] args) {
         System.out.println("Dimostrazione dei metodi di creazione dei thread");
         System.out.println("=============================================");

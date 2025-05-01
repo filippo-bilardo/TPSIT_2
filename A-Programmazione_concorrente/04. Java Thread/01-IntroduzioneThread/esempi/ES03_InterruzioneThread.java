@@ -1,12 +1,12 @@
 /**
- * Esempio 07: Interruzione dei Thread
+ * Esempio 03: Interruzione dei Thread
  * 
  * Questo esempio dimostra come interrompere correttamente i thread in Java.
  * L'interruzione è un meccanismo cooperativo: un thread può segnalare a un altro
  * thread che dovrebbe terminare, ma il thread target deve controllare periodicamente
  * il suo stato di interruzione e rispondere di conseguenza.
  */
-public class ES07_InterruzioneThread {
+public class ES03_InterruzioneThread {
     public static void main(String[] args) {
         System.out.println("Dimostrazione dell'interruzione dei thread");
         System.out.println("=========================================\n");

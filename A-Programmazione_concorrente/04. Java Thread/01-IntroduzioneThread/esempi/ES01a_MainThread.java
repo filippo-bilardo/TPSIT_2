@@ -1,4 +1,8 @@
-class ES00_MainThread {
+/**
+ * Esempio che mostra come ottenere informazioni sul thread principale
+ * sempre presente in ogni programma Java.
+ */
+class ES01a_MainThread {
     public static void main(String args[]) {
         // Per ottenere informazioni sul thread corrente, si utilizza il metodo
         // currentThread() della classe Thread.

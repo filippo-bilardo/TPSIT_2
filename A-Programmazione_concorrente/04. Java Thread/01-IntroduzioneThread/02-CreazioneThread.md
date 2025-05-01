@@ -89,7 +89,7 @@ public class MioRunnable implements Runnable {
 
 ## Utilizzo di Lambda Expressions (Java 8+)
 
-Con Java 8, è possibile utilizzare le espressioni lambda per implementare l'interfaccia `Runnable` in modo più conciso, poiché `Runnable` è un'interfaccia funzionale (ha un solo metodo astratto).
+Con Java 8, è possibile utilizzare le [espressioni lambda](<LambdaExpression.md>) per implementare l'interfaccia `Runnable` in modo più conciso, poiché `Runnable` è un'interfaccia funzionale (ha un solo metodo astratto).
 
 ### Esempio con Lambda
 

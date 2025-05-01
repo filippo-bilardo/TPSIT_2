@@ -5,7 +5,7 @@
  * - I processi sono istanze separate di programmi con spazi di memoria isolati
  * - I thread condividono lo stesso spazio di memoria all'interno di un processo
  */
-public class ES01_ProcessoVsThread {
+public class ES01b_ProcessoVsThread {
     // Variabile condivisa tra tutti i thread
     private static int contatoreComuneThread = 0;
     

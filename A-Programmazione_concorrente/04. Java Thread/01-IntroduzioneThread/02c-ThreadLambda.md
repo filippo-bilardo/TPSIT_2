@@ -1,6 +1,6 @@
 ## Thread con Lambda Expressions (Java 8+)
 
-Con Java 8 è possibile creare thread in modo ancora più conciso utilizzando le lambda expressions, grazie al fatto che l'interfaccia `Runnable` è funzionale (ha un solo metodo astratto).
+Con Java 8 è possibile creare thread in modo ancora più conciso utilizzando le [lambda expressions](<LambdaExpression.md>), grazie al fatto che l'interfaccia `Runnable` è funzionale (ha un solo metodo astratto).
 
 ### Esempio Base con Lambda
 
