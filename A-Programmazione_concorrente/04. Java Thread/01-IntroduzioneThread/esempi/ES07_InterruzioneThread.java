@@ -85,3 +85,39 @@ public class ES07_InterruzioneThread {
         System.out.println("   con Thread.currentThread().interrupt() se si vuole propagare l'interruzione");
     }
 }
+
+/*
+ * Esempio di output:
+ 
+    Dimostrazione dell'interruzione dei thread
+    =========================================
+
+    Thread sensibile: iniziato
+    Thread ignorante: iniziato
+    Thread sensibile: lavorando... 0
+    Thread ignorante: lavorando... 0
+    Thread sensibile: lavorando... 1
+    Thread ignorante: lavorando... 1
+    Thread sensibile: lavorando... 2
+    Thread ignorante: lavorando... 2
+
+    Thread principale: interruzione di entrambi i thread
+    Thread ignorante: ho ricevuto un'interruzione ma la ignoro
+    Thread ignorante: lavorando... 3
+    Thread sensibile: interrotto durante sleep()
+    Thread sensibile: terminato
+    Thread ignorante: lavorando... 4
+    Thread ignorante: completato normalmente
+
+    Nota: L'interruzione in Java è un meccanismo cooperativo.
+    Un thread deve controllare periodicamente il suo stato di interruzione
+    e decidere come rispondere. Non è possibile forzare la terminazione
+    di un thread dall'esterno in modo sicuro.
+
+    Best practices per gestire l'interruzione:
+    1. Controllare regolarmente Thread.currentThread().isInterrupted()
+    2. Uscire dai cicli e terminare il thread quando viene rilevata un'interruzione
+    3. Quando si cattura InterruptedException, reimpostare il flag di interruzione
+   con Thread.currentThread().interrupt() se si vuole propagare l'interruzione
+
+ */
