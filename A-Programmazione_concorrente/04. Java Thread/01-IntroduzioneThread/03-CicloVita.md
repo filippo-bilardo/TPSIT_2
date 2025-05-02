@@ -35,6 +35,8 @@ Secondo la documentazione ufficiale di Java, un thread può trovarsi in uno dei 
                           run() completes
 ```
 
+[![Cicli di vita di un thread](<assets/Life_cycle_of_a_Thread_in_Java.jpg>)](https://www.baeldung.com/java-thread-lifecycle) 
+
 ## Transizioni tra Stati
 
 ### Da New a Runnable
