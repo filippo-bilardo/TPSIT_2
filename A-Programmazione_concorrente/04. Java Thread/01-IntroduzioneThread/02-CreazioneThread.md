@@ -7,9 +7,9 @@ In Java, esistono principalmente due modi per creare e avviare un thread:
 1. Estendere la classe `Thread`
 2. Implementare l'interfaccia `Runnable`
 
-Entrambi gli approcci hanno i loro vantaggi e svantaggi. In questo capitolo, esploreremo entrambi i metodi e vedremo anche come utilizzare le espressioni lambda (introdotte in Java 8) per creare thread in modo più conciso.
+Entrambi gli approcci hanno i loro vantaggi e svantaggi. In questo capitolo, esploreremo entrambi i metodi e vedremo anche come utilizzare le classi anonime e le espressioni lambda (introdotte in Java 8) per creare thread in modo più conciso.
 
-## Estendere la Classe Thread
+## 1. Estendere la Classe Thread
 
 Il primo approccio consiste nell'estendere la classe `Thread` e sovrascrivere il metodo `run()`.
 
@@ -47,7 +47,7 @@ public class MioThread extends Thread {
 - Java non supporta l'ereditarietà multipla, quindi se la classe estende già un'altra classe, non può estendere anche `Thread`
 - Mescola il "cosa fare" (logica di business) con il "come farlo" (meccanismo di threading)
 
-## Implementare l'Interfaccia Runnable
+## 2. Implementare l'Interfaccia Runnable
 
 Il secondo approccio, generalmente preferito, consiste nell'implementare l'interfaccia `Runnable` e passare l'oggetto a un'istanza di `Thread`.
 
@@ -87,11 +87,54 @@ public class MioRunnable implements Runnable {
 - Sintassi leggermente più verbosa
 - Nessun accesso diretto ai metodi di `Thread` (è necessario utilizzare `Thread.currentThread()`)
 
-## Utilizzo di Lambda Expressions (Java 8+)
+
+## 3. Utilizzare una classe anonima
+
+Le classi anonime in Java permettono di definire e istanziare una classe in un'unica operazione. Questa tecnica è particolarmente utile quando si devono implementare interfacce come Runnable per un uso unico o molto limitato.
+
+### Esempio Base
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Creazione di un thread utilizzando una classe anonima che implementa Runnable
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Thread con classe anonima in esecuzione");
+                // Qui possiamo inserire tutto il codice che vogliamo eseguire nel thread
+            }
+        });
+        thread.start();
+        
+        // Possiamo anche estendere direttamente Thread con una classe anonima
+        Thread threadExtended = new Thread() {
+            @Override
+            public void run() {
+                System.out.println("Thread esteso con classe anonima in esecuzione");
+            }
+        };
+        threadExtended.start();
+    }
+}
+```
+
+### Vantaggi dell'utilizzo di classi anonime:
+
+- **Concisione**: Non è necessario creare una classe separata per un'implementazione di Runnable che verrà utilizzata una sola volta
+- **Scope**: La classe anonima ha accesso alle variabili locali del metodo in cui è definita (se dichiarate final o effettivamente finali)
+- **Incapsulamento**: Il codice relativo al thread è definito esattamente dove viene utilizzato, migliorando la leggibilità
+
+### Limitazioni:
+
+- La classe anonima non può avere costruttori espliciti
+- Non può implementare/estendere più di una classe o interfaccia
+- Non può essere riutilizzata in altre parti del codice
+
+## 4. Utilizzo di Lambda Expressions (Java 8+)
 
 Con Java 8, è possibile utilizzare le [espressioni lambda](<LambdaExpression.md>) per implementare l'interfaccia `Runnable` in modo più conciso, poiché `Runnable` è un'interfaccia funzionale (ha un solo metodo astratto).
 
-### Esempio con Lambda
+### Esempio Base
 
 ```java
 public class ThreadLambda {
@@ -122,6 +165,13 @@ public class ThreadLambda {
 | Condivisione stato | Più difficile condividere stato tra thread | Più facile condividere stato tra thread |
 | Accesso ai metodi Thread | Diretto | Tramite Thread.currentThread() |
 | Design OOP | Meno flessibile | Più flessibile |
+
+## Quale metodo scegliere?
+
+- Estendi `Thread` quando hai bisogno di modificare il comportamento del thread stesso
+- Implementa `Runnable` quando vuoi solo definire un'attività da eseguire in un thread
+- Usa classi anonime per implementazioni one-off di Runnable più complesse
+- Usa espressioni lambda per implementazioni concise e semplici (Java 8+)
 
 ## Best Practices
 
