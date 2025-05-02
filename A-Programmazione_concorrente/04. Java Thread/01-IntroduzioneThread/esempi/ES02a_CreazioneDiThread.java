@@ -81,3 +81,26 @@ class MioThread extends Thread {
         }
     }
 }
+
+/**
+ * Output: java ES01_CreazioneDiThread
+
+    Thread principale: main
+    Thread Lambda: iterazione 0
+    Thread-Esteso: iterazione 0
+    Thread-Runnable: iterazione 0
+    Thread-Runnable: iterazione 1
+    Thread-Esteso: iterazione 1
+    Thread Lambda: iterazione 1
+    Thread-Runnable: iterazione 2
+    Thread-Esteso: iterazione 2
+    Thread-Runnable: iterazione 3
+    Thread Lambda: iterazione 2
+    Thread-Runnable: iterazione 4
+    Thread-Esteso: iterazione 3
+    Thread Lambda: iterazione 3
+    Thread-Esteso: iterazione 4
+    Thread Lambda: iterazione 4
+    Tutti i thread hanno completato l'esecuzione
+
+ */
