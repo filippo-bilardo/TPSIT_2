@@ -17,7 +17,7 @@ public class ES02a_CreazioneDiThread {
         // Creazione di thread con lambda expression (Java 8+)
         Thread t3 = new Thread(() -> {
             for (int i = 0; i < 5; i++) {
-                System.out.println("Thread Lambda: iterazione " + i);
+                System.out.println("Thread Lambda " + Thread.currentThread().getId() + ": iterazione " + i);
                 try {
                     Thread.sleep(200);
                 } catch (InterruptedException e) {
