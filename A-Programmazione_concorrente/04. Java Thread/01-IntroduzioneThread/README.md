@@ -46,3 +46,4 @@ Consulta l'[Indice degli Esempi](esempi/INDICE_ESEMPI.md) per una panoramica com
 ## Navigazione del Corso
 - [📑 Indice](../README.md)
 - [➡️ Sincronizzazione](../02-Sincronizzazione/README.md)
+- [⭐ Priorità dei Thread](ThreadPriority.md)
