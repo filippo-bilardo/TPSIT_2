@@ -62,11 +62,14 @@ public class MioRunnable implements Runnable {
         System.out.println("Il thread è in esecuzione!");
         // Codice da eseguire nel thread
     }
-    
+}
+
+public class TestCreazioneThread {
     public static void main(String[] args) {
+        //Thread thread1 = new Thread(new MioRunnable());
         MioRunnable runnable = new MioRunnable();
-        Thread thread = new Thread(runnable);
-        thread.start(); // Avvia il thread
+        Thread thread1 = new Thread(runnable);
+        thread1.start(); // Avvia il thread
     }
 }
 ```
