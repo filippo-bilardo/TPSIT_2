@@ -22,7 +22,9 @@ public class MioThread extends Thread {
         System.out.println("Il thread è in esecuzione!");
         // Codice da eseguire nel thread
     }
-    
+}
+ 
+public class TestCreazioneThread {
     public static void main(String[] args) {
         MioThread thread = new MioThread();
         thread.start(); // Avvia il thread
