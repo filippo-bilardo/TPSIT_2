@@ -24,6 +24,64 @@ Esecuzione del thread tramite ereditarietà: Thread-1
 Esecuzione del thread tramite Runnable: Thread-2
 Esecuzione del thread tramite lambda
 ```
+---
+
+### **2tris. Esercizio: Figure Geometriche con Thread ed Ereditarietà**
+
+**Obiettivo:** Implementare un sistema di calcolo dei perimetri utilizzando ereditarietà e thread.
+
+#### **Istruzioni:**
+1. Creare un'interfaccia `FiguraGeometrica` con:
+   - Un metodo `calcolaPerimetro()` che restituisce un double
+   - Un metodo `getNome()` che restituisce il nome della figura
+
+2. Implementare tre classi base che implementano `FiguraGeometrica`:
+   - `Quadrato`: con un campo `lato` e perimetro = 4 * lato
+   - `Triangolo`: con un campo `lato` e perimetro = 3 * lato
+   - `Rettangolo`: con campi `base` e `altezza` e perimetro = 2 * (base + altezza)
+
+3. Creare tre classi thread che ereditano dalle rispettive figure:
+   - `ThreadQuadrato` che estende `Quadrato` e implementa `Runnable`
+   - `ThreadTriangolo` che estende `Triangolo` e implementa `Runnable`
+   - `ThreadRettangolo` che estende `Rettangolo` e implementa `Runnable`
+
+4. Per ogni classe thread:
+   - Il costruttore deve accettare un numero progressivo (1-5)
+   - Usare il numero come dimensione della figura:
+     * Per il quadrato: come lato
+     * Per il triangolo: come lato
+     * Per il rettangolo: come base, e il suo doppio come altezza
+   - Nel metodo `run()`:
+     * Calcolare il perimetro
+     * Stampare: "Thread-N: Perimetro del [nome figura] = [valore]"
+
+5. Nel metodo `main`:
+   - Creare un array di 15 thread (5 per ogni tipo di figura)
+   - Creare e avviare 5 thread per ogni tipo di figura
+   - Attendere il completamento di tutti i thread
+   - Stampare un messaggio di completamento
+
+**Esempio di Output:**
+```
+Thread-1: Perimetro del Quadrato = 4.0
+Thread-1: Perimetro del Triangolo = 3.0
+Thread-1: Perimetro del Rettangolo = 6.0
+Thread-2: Perimetro del Quadrato = 8.0
+Thread-2: Perimetro del Triangolo = 6.0
+Thread-2: Perimetro del Rettangolo = 12.0
+...
+Thread-5: Perimetro del Quadrato = 20.0
+Thread-5: Perimetro del Triangolo = 15.0
+Thread-5: Perimetro del Rettangolo = 30.0
+Calcolo di tutti i perimetri completato!
+```
+
+**Concetti Dimostrati:**
+- Uso delle interfacce per definire un contratto comune
+- Ereditarietà per estendere le classi base
+- Implementazione di thread attraverso l'interfaccia `Runnable`
+- Gestione di thread multipli
+- Sincronizzazione dei thread con `join()`
 
 ---
 
