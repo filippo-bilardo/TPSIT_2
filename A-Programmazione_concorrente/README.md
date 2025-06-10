@@ -35,6 +35,7 @@
    - **3.4 Thread in Java**
      - [3.4.1 Creazione e gestione dei thread in Java (Thread, Runnable)](<03. Thread/03.4.1 Creazione e gestione thread Java.md>)
      - [3.4.2 Sincronizzazione tra thread Java (synchronized, Lock)](<03. Thread/03.4.2 Sincronizzazione thread Java.md>)
+   - [Corso Java Thread](https://github.com/filippo-bilardo/Corso-Java-Thread/blob/main/README.md)
 
 ---
 [Corso TPSIT2](../README.md)
