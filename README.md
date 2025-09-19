@@ -13,6 +13,3 @@ Appunti privati del corso TPSIT2
 - [TPSIT_1](https://github.com/filippo-bilardo/TPSIT_1)
 - [TPSIT_2](https://github.com/filippo-bilardo/TPSIT_2)
 - [TPSIT_3](https://github.com/filippo-bilardo/TPSIT_3)
-- [TPSIT_1_MY](https://github.com/filippo-bilardo/TPSIT_1_MY)
-- [TPSIT_2_MY](https://github.com/filippo-bilardo/TPSIT_2_MY)
-- [TPSIT_3_MY](https://github.com/filippo-bilardo/TPSIT_3_MY)
