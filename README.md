@@ -7,6 +7,7 @@ Appunti privati del corso TPSIT2
 - [B-Comunicazione_e_sincronizzazione](B-Comunicazione_e_sincronizzazione/README.md)  
 - [C-Cicli_di_sviluppo_e_documentazione_progetti](C-Cicli_di_sviluppo_e_documentazione_progetti/README.md) 
 - [D-JavaScript](D-JavaScript/README.md)
+- [D - Funzionalità programmabili di un sistema operativo](D-Funzionalita_programmabili_di_un_sistema_operativo/README.md)
 
 ---
 ## Corsi collegati
