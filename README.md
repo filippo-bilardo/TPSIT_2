@@ -3,10 +3,9 @@ Appunti privati del corso TPSIT2
 
 ---
 ## Programma del corso
-- [A-Processi_sequenziali_e_paralleli](A-Processi_sequenziali_e_paralleli/README.md) 
-- [B-Comunicazione_e_sincronizzazione](B-Comunicazione_e_sincronizzazione/README.md)  
-- [C-Cicli_di_sviluppo_e_documentazione_progetti](C-Cicli_di_sviluppo_e_documentazione_progetti/README.md) 
-- [D-JavaScript](D-JavaScript/README.md)
+- [A - Programmazione concorrente](A-Programmazione_concorrente/README.md)  
+- [B - Cicli di sviluppo e documentazione progetti](B-Cicli_di_sviluppo_e_documentazione_progetti/README.md) 
+- [C - JavaScript](C-JavaScript/README.md)
 - [D - Funzionalità programmabili di un sistema operativo](D-Funzionalita_programmabili_di_un_sistema_operativo/README.md)
 
 ---
